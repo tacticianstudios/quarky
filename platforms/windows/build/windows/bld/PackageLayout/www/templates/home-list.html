@@ -1,0 +1,36 @@
+﻿<ion-view title="Hub">
+    <ion-content class="flex-gallery text-center padding category-bg" ng-controller="HomeListCtrl">
+        <!--
+                <ion-content class="flex-gallery text-center padding category-bg" ng-init="initRemoteFeed()"
+                             ng-controller="HomeCtrl">
+        -->
+        <ion-refresher
+                pulling-icon = "ion-arrow-down-c positive"
+                on-refresh="refreshPosts()">
+        </ion-refresher>
+
+        <div ng-if="showWelcome" class="text-center color:white">
+            <div class="card">
+                <div class="item item-icon-left item-text-wrap item-stable">
+                    <i class="icon ion-arrow-down-c"></i>
+                    <b>Pull down</b> to get the latest!
+                </div>
+            </div>
+
+            <img data-ng-click="refreshPosts()" width="300px" src="img/quarkyIcon512.png">
+
+        </div>
+
+        <span ng-repeat="p in posts">
+                <img data-ng-click="openModal2(p)"
+                     data-ng-src="{{p.featured_image.attachment_meta.sizes.medium.url || p.featured_image.source || 'img/coming-soon.png'}}"
+                     width="300px" alt="">
+        </span>
+
+        <ion-infinite-scroll on-infinite="loadMore()"
+                             data-ng-if="infiniteScroll"
+                             immediate-check="false"
+                             distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

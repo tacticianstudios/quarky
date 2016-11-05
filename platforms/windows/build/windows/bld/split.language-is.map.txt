@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-is"
+"ResourceDimensions"		"language-is-small-screen"
+
+[Files]
+"C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\split.language-is.pri"			"resources.pri"
+"C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\PackageLayout\www\lib\auth0-lock\lib\is-small-screen\index.js"			"www\lib\auth0-lock\lib\is-small-screen\index.js"

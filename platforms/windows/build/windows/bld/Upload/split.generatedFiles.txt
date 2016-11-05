@@ -1,0 +1,6 @@
+build\windows\bld\Upload\split.pri
+build\windows\bld\Upload\split.map.txt
+build\windows\bld\Upload\split.language-is.pri
+build\windows\bld\Upload\split.language-is.map.txt
+build\windows\bld\Upload\split.scale-100.pri
+build\windows\bld\Upload\split.scale-100.map.txt

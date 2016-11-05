@@ -1,0 +1,2521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INSTANCE-1</Machine>
+    <WindowsUser>itsgtawwekid</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>48c0a0d0-a39f-11e6-897a-0dade7adbd0b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=47E2AE76-7B37-4AF8-96FF-79E203871293</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>6623F169644A4105419F99E9922A39E18740A9554A670B970F070E367820EE24</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20591TacticianStudios.Quarky_1.1.6.0_x86__pkg1n0a3t405c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>20591TacticianStudios.Quarky_pkg1n0a3t405c!com.quarkyapp.com.quarkyapp.quarky</RegisteredUserModeAppID>
+    <RegisteredPackageID>20591TacticianStudios.Quarky</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=47E2AE76-7B37-4AF8-96FF-79E203871293</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.6.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T22:28:12.989</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreen.png">
+      <PackagePath>images\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreenPhone.png">
+      <PackagePath>images\SplashScreenPhone.png</PackagePath>
+      <Modified>2016-11-05T21:31:59.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square150x150Logo.png">
+      <PackagePath>images\Square150x150Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square30x30Logo.png">
+      <PackagePath>images\Square30x30Logo.png</PackagePath>
+      <Modified>2016-11-05T21:31:59.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2016-11-05T21:31:59.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square310x310Logo.png">
+      <PackagePath>images\Square310x310Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square44x44Logo.png">
+      <PackagePath>images\Square44x44Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square70x70Logo.png">
+      <PackagePath>images\Square70x70Logo.png</PackagePath>
+      <Modified>2016-11-05T21:31:59.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2016-11-05T21:31:59.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square71x71Logo.png">
+      <PackagePath>images\Square71x71Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Wide310x150Logo.png">
+      <PackagePath>images\Wide310x150Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T21:31:59.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\coming-soon.png">
+      <PackagePath>www\img\coming-soon.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\about\Credits.png">
+      <PackagePath>www\img\guru-nav\about\Credits.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\about\legal-disclaimers.png">
+      <PackagePath>www\img\guru-nav\about\legal-disclaimers.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\about\Partners.png">
+      <PackagePath>www\img\guru-nav\about\Partners.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\about\Tips-Tricks.png">
+      <PackagePath>www\img\guru-nav\about\Tips-Tricks.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\Coming-Soon.png">
+      <PackagePath>www\img\guru-nav\Coming-Soon.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eGame\Books-that-Matter.png">
+      <PackagePath>www\img\guru-nav\eGame\Books-that-Matter.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eGame\Boot-Camp-1.png">
+      <PackagePath>www\img\guru-nav\eGame\Boot-Camp-1.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eGame\Equpment.png">
+      <PackagePath>www\img\guru-nav\eGame\Equpment.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eGame\Game-Plans-1.png">
+      <PackagePath>www\img\guru-nav\eGame\Game-Plans-1.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eGame\Get-a-job.png">
+      <PackagePath>www\img\guru-nav\eGame\Get-a-job.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eGame\Money-Smart.png">
+      <PackagePath>www\img\guru-nav\eGame\Money-Smart.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eInfo\A-D.png">
+      <PackagePath>www\img\guru-nav\eInfo\A-D.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eInfo\E-H.png">
+      <PackagePath>www\img\guru-nav\eInfo\E-H.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eInfo\I-L.png">
+      <PackagePath>www\img\guru-nav\eInfo\I-L.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eInfo\M-P.png">
+      <PackagePath>www\img\guru-nav\eInfo\M-P.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eInfo\Q-T.png">
+      <PackagePath>www\img\guru-nav\eInfo\Q-T.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eInfo\U-Z.png">
+      <PackagePath>www\img\guru-nav\eInfo\U-Z.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYourgame.png">
+      <PackagePath>www\img\guru-nav\ElevateYourgame.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYourInfo.png">
+      <PackagePath>www\img\guru-nav\ElevateYourInfo.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYouroptions.png">
+      <PackagePath>www\img\guru-nav\ElevateYouroptions.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYourself.png">
+      <PackagePath>www\img\guru-nav\ElevateYourself.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYourskills.png">
+      <PackagePath>www\img\guru-nav\ElevateYourskills.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYourspirit.png">
+      <PackagePath>www\img\guru-nav\ElevateYourspirit.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\ElevateYourStory.png">
+      <PackagePath>www\img\guru-nav\ElevateYourStory.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eOptions\Ask-Jason.png">
+      <PackagePath>www\img\guru-nav\eOptions\Ask-Jason.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eOptions\Good-Advice-Bad-Advice.png">
+      <PackagePath>www\img\guru-nav\eOptions\Good-Advice-Bad-Advice.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eOptions\Share-Your-Story.png">
+      <PackagePath>www\img\guru-nav\eOptions\Share-Your-Story.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eOptions\Stories-with-Support-1.png">
+      <PackagePath>www\img\guru-nav\eOptions\Stories-with-Support-1.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\attitude.png">
+      <PackagePath>www\img\guru-nav\eSelf\attitude.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\encouragement.png">
+      <PackagePath>www\img\guru-nav\eSelf\encouragement.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\family.png">
+      <PackagePath>www\img\guru-nav\eSelf\family.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\Friends.png">
+      <PackagePath>www\img\guru-nav\eSelf\Friends.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\higherlearning.png">
+      <PackagePath>www\img\guru-nav\eSelf\higherlearning.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\Love.png">
+      <PackagePath>www\img\guru-nav\eSelf\Love.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\random.png">
+      <PackagePath>www\img\guru-nav\eSelf\random.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\Share-your-inspiration.png">
+      <PackagePath>www\img\guru-nav\eSelf\Share-your-inspiration.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSelf\whoAmI.png">
+      <PackagePath>www\img\guru-nav\eSelf\whoAmI.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Reasons.png">
+      <PackagePath>www\img\guru-nav\eSkills\Reasons.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Recognize.png">
+      <PackagePath>www\img\guru-nav\eSkills\Recognize.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Refferals.png">
+      <PackagePath>www\img\guru-nav\eSkills\Refferals.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Relationships.png">
+      <PackagePath>www\img\guru-nav\eSkills\Relationships.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Research.png">
+      <PackagePath>www\img\guru-nav\eSkills\Research.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Resilience.png">
+      <PackagePath>www\img\guru-nav\eSkills\Resilience.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSkills\Response.png">
+      <PackagePath>www\img\guru-nav\eSkills\Response.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSpirit\Belonging2.png">
+      <PackagePath>www\img\guru-nav\eSpirit\Belonging2.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSpirit\Concern-for-Others2.png">
+      <PackagePath>www\img\guru-nav\eSpirit\Concern-for-Others2.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSpirit\hope2.png">
+      <PackagePath>www\img\guru-nav\eSpirit\hope2.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSpirit\Life-and-Death.png">
+      <PackagePath>www\img\guru-nav\eSpirit\Life-and-Death.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSpirit\Meaning-1.png">
+      <PackagePath>www\img\guru-nav\eSpirit\Meaning-1.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\eSpirit\Worth.png">
+      <PackagePath>www\img\guru-nav\eSpirit\Worth.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\guru-nav\My-Stuff.png">
+      <PackagePath>www\img\guru-nav\My-Stuff.png</PackagePath>
+      <Modified>2016-11-05T21:32:01.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\icon510.png">
+      <PackagePath>www\img\intro\icon510.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\icon512.png">
+      <PackagePath>www\img\intro\icon512.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\Quarky-feature-graphic.png">
+      <PackagePath>www\img\intro\Quarky-feature-graphic.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\AE-Venues.png">
+      <PackagePath>www\img\places\fun\AE-Venues.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Build-Skills.png">
+      <PackagePath>www\img\places\fun\Build-Skills.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Clubs.png">
+      <PackagePath>www\img\places\fun\Clubs.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Expression.png">
+      <PackagePath>www\img\places\fun\Expression.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Food-and-Events.png">
+      <PackagePath>www\img\places\fun\Food-and-Events.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Free.png">
+      <PackagePath>www\img\places\fun\Free.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Hobbies.png">
+      <PackagePath>www\img\places\fun\Hobbies.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Outdoors.png">
+      <PackagePath>www\img\places\fun\Outdoors.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Random-Fun.png">
+      <PackagePath>www\img\places\fun\Random-Fun.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Random-Fun2.png">
+      <PackagePath>www\img\places\fun\Random-Fun2.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Shop-and-Travel.png">
+      <PackagePath>www\img\places\fun\Shop-and-Travel.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Sports-and-Rec.png">
+      <PackagePath>www\img\places\fun\Sports-and-Rec.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\fun\Sports-and-Rec1.png">
+      <PackagePath>www\img\places\fun\Sports-and-Rec1.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Care.png">
+      <PackagePath>www\img\places\help\Care.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Education.png">
+      <PackagePath>www\img\places\help\Education.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Emergency.png">
+      <PackagePath>www\img\places\help\Emergency.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Food.png">
+      <PackagePath>www\img\places\help\Food.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Goods.png">
+      <PackagePath>www\img\places\help\Goods.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Health.png">
+      <PackagePath>www\img\places\help\Health.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Housing.png">
+      <PackagePath>www\img\places\help\Housing.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Legal.png">
+      <PackagePath>www\img\places\help\Legal.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Money.png">
+      <PackagePath>www\img\places\help\Money.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Transit.png">
+      <PackagePath>www\img\places\help\Transit.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\help\Work.png">
+      <PackagePath>www\img\places\help\Work.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\service\donate.png">
+      <PackagePath>www\img\places\service\donate.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\service\recycle.png">
+      <PackagePath>www\img\places\service\recycle.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\service\Volunteer-1.png">
+      <PackagePath>www\img\places\service\Volunteer-1.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\service\worship-1.png">
+      <PackagePath>www\img\places\service\worship-1.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\quarkycon.png">
+      <PackagePath>www\img\quarkycon.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\quarkyIcon512.png">
+      <PackagePath>www\img\quarkyIcon512.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\splash.png">
+      <PackagePath>www\img\splash.png</PackagePath>
+      <Modified>2016-11-05T21:32:02.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\home\auth0_logo_final_blue_RGB.png">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\home\auth0_logo_final_blue_RGB.png</PackagePath>
+      <Modified>2016-11-05T21:32:04.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\home\auth0_logo_final_blue_RGB.png">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\home\auth0_logo_final_blue_RGB.png</PackagePath>
+      <Modified>2016-11-05T21:32:05.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\auth0_logo_final_blue_RGB.png">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\auth0_logo_final_blue_RGB.png</PackagePath>
+      <Modified>2016-11-05T21:32:05.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\public\auth0_logo.png">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\public\auth0_logo.png</PackagePath>
+      <Modified>2016-11-05T21:32:06.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2016-11-05T21:31:59.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2016-11-05T21:31:59.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\css\ionic.app.css">
+      <PackagePath>www\css\ionic.app.css</PackagePath>
+      <Modified>2016-11-05T21:32:10.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\css\ionic.app.min.css">
+      <PackagePath>www\css\ionic.app.min.css</PackagePath>
+      <Modified>2016-11-05T21:32:10.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\gloriahallelujah\gloriahallelujah.css">
+      <PackagePath>www\fonts\gloriahallelujah\gloriahallelujah.css</PackagePath>
+      <Modified>2016-11-05T21:32:10.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+      <Modified>2016-11-05T21:32:10.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\public\app.css">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\public\app.css</PackagePath>
+      <Modified>2016-11-05T21:32:11.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\app.css">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\app.css</PackagePath>
+      <Modified>2016-11-05T21:32:11.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\home\home.css">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\home\home.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\login\login.css">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\login\login.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\app.css">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\app.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\home\home.css">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\home\home.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\login\login.css">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\login\login.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\app.css">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\app.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.css">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.css">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.css</PackagePath>
+      <Modified>2016-11-05T21:32:12.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\public\app.css">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\public\app.css</PackagePath>
+      <Modified>2016-11-05T21:32:13.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\main.css">
+      <PackagePath>www\lib\auth0-lock\lib\css\main.css</PackagePath>
+      <Modified>2016-11-05T21:32:13.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\main.min.css">
+      <PackagePath>www\lib\auth0-lock\lib\css\main.min.css</PackagePath>
+      <Modified>2016-11-05T21:32:13.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\dist\ion-autocomplete.css">
+      <PackagePath>www\lib\ion-autocomplete\dist\ion-autocomplete.css</PackagePath>
+      <Modified>2016-11-05T21:32:14.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\dist\ion-autocomplete.min.css">
+      <PackagePath>www\lib\ion-autocomplete\dist\ion-autocomplete.min.css</PackagePath>
+      <Modified>2016-11-05T21:32:14.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\src\ionic-datepicker.styles.css">
+      <PackagePath>www\lib\ionic-datepicker\src\ionic-datepicker.styles.css</PackagePath>
+      <Modified>2016-11-05T21:32:15.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+      <Modified>2016-11-05T21:32:14.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+      <Modified>2016-11-05T21:32:14.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\css\ionicons.css">
+      <PackagePath>www\lib\ionic\css\ionicons.css</PackagePath>
+      <Modified>2016-11-05T21:32:14.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\css\ionicons.min.css">
+      <PackagePath>www\lib\ionic\css\ionicons.min.css</PackagePath>
+      <Modified>2016-11-05T21:32:07.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2016-11-05T21:31:59.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\gloriahallelujah\gloriahallelujah.ttf">
+      <PackagePath>www\fonts\gloriahallelujah\gloriahallelujah.ttf</PackagePath>
+      <Modified>2016-11-05T21:32:00.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\fonts\src\zocial.ttf">
+      <PackagePath>www\lib\auth0-lock\support\fonts\src\zocial.ttf</PackagePath>
+      <Modified>2016-11-05T21:32:07.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-11-05T21:32:07.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2016-11-05T21:31:59.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+      <Modified>2016-11-05T21:32:00.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-11-05T21:32:09.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\about-module.js">
+      <PackagePath>www\js\about-module.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+      <Modified>2016-11-05T22:33:38.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\guru-module.js">
+      <PackagePath>www\js\guru-module.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\home-module.js">
+      <PackagePath>www\js\home-module.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\lb-services.js">
+      <PackagePath>www\js\lb-services.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\menu.js">
+      <PackagePath>www\js\menu.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\places-module.js">
+      <PackagePath>www\js\places-module.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\profile.js">
+      <PackagePath>www\js\profile.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\templates.js">
+      <PackagePath>www\js\templates.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\dist\angular-storage.js">
+      <PackagePath>www\lib\a0-angular-storage\dist\angular-storage.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\dist\angular-storage.min.js">
+      <PackagePath>www\lib\a0-angular-storage\dist\angular-storage.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\gulpfile.js">
+      <PackagePath>www\lib\a0-angular-storage\gulpfile.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\index.js">
+      <PackagePath>www\lib\a0-angular-storage\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\karma-dist-concatenated.conf.js">
+      <PackagePath>www\lib\a0-angular-storage\karma-dist-concatenated.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\karma-dist-minified.conf.js">
+      <PackagePath>www\lib\a0-angular-storage\karma-dist-minified.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\karma-src-all.conf.js">
+      <PackagePath>www\lib\a0-angular-storage\karma-src-all.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\karma-src.conf.js">
+      <PackagePath>www\lib\a0-angular-storage\karma-src.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\angular-animate.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\angular-animate.min.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\index.js">
+      <PackagePath>www\lib\angular-animate\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\dist\angular-jwt.js">
+      <PackagePath>www\lib\angular-jwt\dist\angular-jwt.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\dist\angular-jwt.min.js">
+      <PackagePath>www\lib\angular-jwt\dist\angular-jwt.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\gulpfile.js">
+      <PackagePath>www\lib\angular-jwt\gulpfile.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\index.js">
+      <PackagePath>www\lib\angular-jwt\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\karma-dist-concatenated.conf.js">
+      <PackagePath>www\lib\angular-jwt\karma-dist-concatenated.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\karma-dist-minified.conf.js">
+      <PackagePath>www\lib\angular-jwt\karma-dist-minified.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\karma-src.conf.js">
+      <PackagePath>www\lib\angular-jwt\karma-src.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\angular-messages.js">
+      <PackagePath>www\lib\angular-messages\angular-messages.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\angular-messages.min.js">
+      <PackagePath>www\lib\angular-messages\angular-messages.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\index.js">
+      <PackagePath>www\lib\angular-messages\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\angular-resource.js">
+      <PackagePath>www\lib\angular-resource\angular-resource.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\angular-resource.min.js">
+      <PackagePath>www\lib\angular-resource\angular-resource.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\index.js">
+      <PackagePath>www\lib\angular-resource\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\angular-sanitize.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\index.js">
+      <PackagePath>www\lib\angular-sanitize\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.min.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\common.js">
+      <PackagePath>www\lib\angular-ui-router\src\common.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\resolve.js">
+      <PackagePath>www\lib\angular-ui-router\src\resolve.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\state.js">
+      <PackagePath>www\lib\angular-ui-router\src\state.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\stateDirectives.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateDirectives.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\stateFilters.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateFilters.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\templateFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\templateFactory.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\urlMatcherFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlMatcherFactory.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\urlRouter.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlRouter.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\view.js">
+      <PackagePath>www\lib\angular-ui-router\src\view.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\viewDirective.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewDirective.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\src\viewScroll.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewScroll.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\index.js">
+      <PackagePath>www\lib\angular\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:10.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\build\auth0-angular.js">
+      <PackagePath>www\lib\auth0-angular\build\auth0-angular.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\build\auth0-angular.min.js">
+      <PackagePath>www\lib\auth0-angular\build\auth0-angular.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\client\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\client\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\client\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\client\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\nodejs\app.js">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\nodejs\app.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\client\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\client\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\client\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\client\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\server.js">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\server.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\public\app.js">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\public\app.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\server.js">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\server.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\app.js">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\app.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\auth0-variables.js">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\auth0-variables.js</PackagePath>
+      <Modified>2016-11-05T21:32:11.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\home\home.js">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\home\home.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\login\login.js">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\login\login.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\scripts\config.js">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\scripts\config.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\scripts\require.js">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\scripts\require.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\sso\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\sso\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\app.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\app.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\auth0-variables.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\auth0-variables.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\home\home.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\home\home.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\login\login.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\login\login.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\app.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\app.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\auth0-variables.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\auth0-variables.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\scripts\controllers.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget\scripts\controllers.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\scripts\myApp.js">
+      <PackagePath>www\lib\auth0-angular\examples\widget\scripts\myApp.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\Gruntfile.js">
+      <PackagePath>www\lib\auth0-angular\Gruntfile.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\karma.conf.js">
+      <PackagePath>www\lib\auth0-angular\karma.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\scenario\protractor.conf.js">
+      <PackagePath>www\lib\auth0-angular\scenario\protractor.conf.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\scenario\sanity.js">
+      <PackagePath>www\lib\auth0-angular\scenario\sanity.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\build\auth0-lock.js">
+      <PackagePath>www\lib\auth0-lock\build\auth0-lock.js</PackagePath>
+      <Modified>2016-11-05T21:32:12.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\build\auth0-lock.min.js">
+      <PackagePath>www\lib\auth0-lock\build\auth0-lock.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\src\app.js">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\src\app.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\src\auth0-variables.js">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\src\auth0-variables.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\webpack.config.js">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\webpack.config.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\Gruntfile.js">
+      <PackagePath>www\lib\auth0-lock\Gruntfile.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\index.js">
+      <PackagePath>www\lib\auth0-lock\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\assert-required\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\assert-required\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\bind\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\bind\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\bonzo-augmented\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\bonzo-augmented\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\errors\ValidationError.js">
+      <PackagePath>www\lib\auth0-lock\lib\errors\ValidationError.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\gravatar\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\gravatar\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\header\icon-container.js">
+      <PackagePath>www\lib\auth0-lock\lib\header\icon-container.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\header\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\header\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\i18n\dictionary.js">
+      <PackagePath>www\lib\auth0-lock\lib\i18n\dictionary.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\i18n\dicts.js">
+      <PackagePath>www\lib\auth0-lock\lib\i18n\dicts.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\i18n\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\i18n\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\insert-css\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\insert-css\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\is-small-screen\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\is-small-screen\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\md5\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\md5\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-kerberos\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\mode-kerberos\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-loading\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\mode-loading\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-loggedin\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\mode-loggedin\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-reset\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\mode-reset\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-signin\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\mode-signin\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-signup\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\mode-signup\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\object-create\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\object-create\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\options-manager\auth-params.js">
+      <PackagePath>www\lib\auth0-lock\lib\options-manager\auth-params.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\options-manager\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\options-manager\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\options-manager\whitelist.js">
+      <PackagePath>www\lib\auth0-lock\lib\options-manager\whitelist.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\password-strength\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\password-strength\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\regex\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\regex\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\stop-event\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\stop-event\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\strategies\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\strategies\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\supports-animation\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\supports-animation\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\supports-placeholder\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\supports-placeholder\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\utils\index.js">
+      <PackagePath>www\lib\auth0-lock\lib\utils\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\standalone.js">
+      <PackagePath>www\lib\auth0-lock\standalone.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\build\auth0.js">
+      <PackagePath>www\lib\auth0.js\build\auth0.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\build\auth0.min.js">
+      <PackagePath>www\lib\auth0.js\build\auth0.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\Gruntfile.js">
+      <PackagePath>www\lib\auth0.js\Gruntfile.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\index.js">
+      <PackagePath>www\lib\auth0.js\index.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\assert_required.js">
+      <PackagePath>www\lib\auth0.js\lib\assert_required.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\base64_url.js">
+      <PackagePath>www\lib\auth0.js\lib\base64_url.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\index-of.js">
+      <PackagePath>www\lib\auth0.js\lib\index-of.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\is-array.js">
+      <PackagePath>www\lib\auth0.js\lib\is-array.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\json-parse.js">
+      <PackagePath>www\lib\auth0.js\lib\json-parse.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\LoginError.js">
+      <PackagePath>www\lib\auth0.js\lib\LoginError.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\same-origin.js">
+      <PackagePath>www\lib\auth0.js\lib\same-origin.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\lib\use_jsonp.js">
+      <PackagePath>www\lib\auth0.js\lib\use_jsonp.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\standalone.js">
+      <PackagePath>www\lib\auth0.js\standalone.js</PackagePath>
+      <Modified>2016-11-05T21:32:13.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\dist\ion-autocomplete.js">
+      <PackagePath>www\lib\ion-autocomplete\dist\ion-autocomplete.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\dist\ion-autocomplete.min.js">
+      <PackagePath>www\lib\ion-autocomplete\dist\ion-autocomplete.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\dist\ionic-datepicker.bundle.min.js">
+      <PackagePath>www\lib\ionic-datepicker\dist\ionic-datepicker.bundle.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\gulpfile.js">
+      <PackagePath>www\lib\ionic-datepicker\gulpfile.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\src\ionic-datepicker.service.js">
+      <PackagePath>www\lib\ionic-datepicker\src\ionic-datepicker.service.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-image-lazy-load.js">
+      <PackagePath>www\lib\ionic-image-lazy-load.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic.ion.imagecachefactory.js">
+      <PackagePath>www\lib\ionic.ion.imagecachefactory.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+      <Modified>2016-11-05T21:32:14.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\dist\ng-cordova-mocks.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova-mocks.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\dist\ng-cordova-mocks.min.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova-mocks.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\dist\ng-cordova.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\dist\ng-cordova.min.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova.min.js</PackagePath>
+      <Modified>2016-11-05T21:32:15.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\gloriahallelujah\gloriahallelujah.eot">
+      <PackagePath>www\fonts\gloriahallelujah\gloriahallelujah.eot</PackagePath>
+      <Modified>2016-11-05T21:32:00.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\fonts\src\zocial.eot">
+      <PackagePath>www\lib\auth0-lock\support\fonts\src\zocial.eot</PackagePath>
+      <Modified>2016-11-05T21:32:07.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+      <Modified>2016-11-05T21:32:07.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\gloriahallelujah\gloriahallelujah.svg">
+      <PackagePath>www\fonts\gloriahallelujah\gloriahallelujah.svg</PackagePath>
+      <Modified>2016-11-05T21:32:00.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\fonts\src\zocial.svg">
+      <PackagePath>www\lib\auth0-lock\support\fonts\src\zocial.svg</PackagePath>
+      <Modified>2016-11-05T21:32:07.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+      <Modified>2016-11-05T21:32:07.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\gloriahallelujah\gloriahallelujah.woff">
+      <PackagePath>www\fonts\gloriahallelujah\gloriahallelujah.woff</PackagePath>
+      <Modified>2016-11-05T21:32:00.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\ubuntu\Ubuntu.woff">
+      <PackagePath>www\fonts\ubuntu\Ubuntu.woff</PackagePath>
+      <Modified>2016-11-05T21:32:00.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\fonts\src\zocial.woff">
+      <PackagePath>www\lib\auth0-lock\support\fonts\src\zocial.woff</PackagePath>
+      <Modified>2016-11-05T21:32:07.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-11-05T21:32:07.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\gloriahallelujah\gloriahallelujah.woff2">
+      <PackagePath>www\fonts\gloriahallelujah\gloriahallelujah.woff2</PackagePath>
+      <Modified>2016-11-05T21:32:00.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\fonts\sourcesanspro\SourceSansPro-Regular.woff2">
+      <PackagePath>www\fonts\sourcesanspro\SourceSansPro-Regular.woff2</PackagePath>
+      <Modified>2016-11-05T21:32:00.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\bg-abstract-blue.jpg">
+      <PackagePath>www\img\bg-abstract-blue.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\bg-black-paisley.jpg">
+      <PackagePath>www\img\bg-black-paisley.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\bg-black-texture.jpg">
+      <PackagePath>www\img\bg-black-texture.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\bg-electric-blue.jpg">
+      <PackagePath>www\img\bg-electric-blue.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\bg-soulhole.jpg">
+      <PackagePath>www\img\bg-soulhole.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\grey-bg.jpg">
+      <PackagePath>www\img\grey-bg.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\guru_2015-08-30_15-54-13.jpg">
+      <PackagePath>www\img\intro\guru_2015-08-30_15-54-13.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\guru_tablet7_2015-08-30_16-11-33.jpg">
+      <PackagePath>www\img\intro\guru_tablet7_2015-08-30_16-11-33.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\hub2_2015-08-30_15-57-51.jpg">
+      <PackagePath>www\img\intro\hub2_2015-08-30_15-57-51.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:01.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\hub_2015-08-30_15-49-49.jpg">
+      <PackagePath>www\img\intro\hub_2015-08-30_15-49-49.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\places_2015-08-30_15-54-53.jpg">
+      <PackagePath>www\img\intro\places_2015-08-30_15-54-53.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\places_tablet10_2015-08-30_16-20-29.jpg">
+      <PackagePath>www\img\intro\places_tablet10_2015-08-30_16-20-29.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\intro\sidemenu_2015-08-30_15-51-45.jpg">
+      <PackagePath>www\img\intro\sidemenu_2015-08-30_15-51-45.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\Places-for-Fun.jpg">
+      <PackagePath>www\img\places\Places-for-Fun.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\Places-for-Help.jpg">
+      <PackagePath>www\img\places\Places-for-Help.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\Places-to-Serve.jpg">
+      <PackagePath>www\img\places\Places-to-Serve.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\places\Share-a-Place-Banner.jpg">
+      <PackagePath>www\img\places\Share-a-Place-Banner.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\quarky-bg.jpg">
+      <PackagePath>www\img\quarky-bg.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\quarkyGuru-intro.jpg">
+      <PackagePath>www\img\quarkyGuru-intro.jpg</PackagePath>
+      <Modified>2016-11-05T21:32:02.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\bg.gif">
+      <PackagePath>www\img\bg.gif</PackagePath>
+      <Modified>2016-11-05T21:32:01.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:10.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\client\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\client\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\client\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\client\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\client\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\client\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\client\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\client\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\client\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\client\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\client\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\client\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\client\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\client\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\client\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\client\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\public\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\public\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\public\info.html">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\public\info.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\public\main.html">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\public\main.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:11.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\home\home.html">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\home\home.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\login\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\login\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\sso\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\sso\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\sso\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\sso\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-redirect\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-redirect\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\home\home.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\home\home.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\login\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\login\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\index.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\views\login.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget\views\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\views\logout.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget\views\logout.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\views\root.html">
+      <PackagePath>www\lib\auth0-angular\examples\widget\views\root.html</PackagePath>
+      <Modified>2016-11-05T21:32:12.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\public\index.html">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\public\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:13.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\development-demo\index.html">
+      <PackagePath>www\lib\auth0-lock\support\development-demo\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:13.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\development-demo\login.html">
+      <PackagePath>www\lib\auth0-lock\support\development-demo\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:13.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\test_harness.html">
+      <PackagePath>www\lib\auth0-lock\test_harness.html</PackagePath>
+      <Modified>2016-11-05T21:32:13.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\example\index.html">
+      <PackagePath>www\lib\auth0.js\example\index.html</PackagePath>
+      <Modified>2016-11-05T21:32:13.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\test_harness.html">
+      <PackagePath>www\lib\auth0.js\test_harness.html</PackagePath>
+      <Modified>2016-11-05T21:32:13.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\src\ionic-datepicker-modal.html">
+      <PackagePath>www\lib\ionic-datepicker\src\ionic-datepicker-modal.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\src\ionic-datepicker-popup.html">
+      <PackagePath>www\lib\ionic-datepicker\src\ionic-datepicker-popup.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\about-list.html">
+      <PackagePath>www\templates\about-list.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\about-master.html">
+      <PackagePath>www\templates\about-master.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\add-to-quarky.html">
+      <PackagePath>www\templates\add-to-quarky.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\article-modal.html">
+      <PackagePath>www\templates\article-modal.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\bookmarks.html">
+      <PackagePath>www\templates\bookmarks.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\guru-detail.html">
+      <PackagePath>www\templates\guru-detail.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\guru-list.html">
+      <PackagePath>www\templates\guru-list.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\guru-nav.html">
+      <PackagePath>www\templates\guru-nav.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\home-list.html">
+      <PackagePath>www\templates\home-list.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\hours-list.html">
+      <PackagePath>www\templates\hours-list.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\login.html">
+      <PackagePath>www\templates\login.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\menu.html">
+      <PackagePath>www\templates\menu.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\place-detail.html">
+      <PackagePath>www\templates\place-detail.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\place-ohana-detail.html">
+      <PackagePath>www\templates\place-ohana-detail.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\places-articles.html">
+      <PackagePath>www\templates\places-articles.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\places-gallery.html">
+      <PackagePath>www\templates\places-gallery.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\places-master.html">
+      <PackagePath>www\templates\places-master.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\profile.html">
+      <PackagePath>www\templates\profile.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\search.html">
+      <PackagePath>www\templates\search.html</PackagePath>
+      <Modified>2016-11-05T21:32:15.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\.bower.json">
+      <PackagePath>www\lib\a0-angular-storage\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:02.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\bower.json">
+      <PackagePath>www\lib\a0-angular-storage\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\package.json">
+      <PackagePath>www\lib\a0-angular-storage\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\.bower.json">
+      <PackagePath>www\lib\angular-animate\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:03.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\bower.json">
+      <PackagePath>www\lib\angular-animate\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\package.json">
+      <PackagePath>www\lib\angular-animate\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\.bower.json">
+      <PackagePath>www\lib\angular-jwt\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:03.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\bower.json">
+      <PackagePath>www\lib\angular-jwt\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\package.json">
+      <PackagePath>www\lib\angular-jwt\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\.bower.json">
+      <PackagePath>www\lib\angular-messages\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:03.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\bower.json">
+      <PackagePath>www\lib\angular-messages\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\package.json">
+      <PackagePath>www\lib\angular-messages\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\.bower.json">
+      <PackagePath>www\lib\angular-resource\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:03.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\bower.json">
+      <PackagePath>www\lib\angular-resource\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\package.json">
+      <PackagePath>www\lib\angular-resource\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\.bower.json">
+      <PackagePath>www\lib\angular-sanitize\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:03.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\bower.json">
+      <PackagePath>www\lib\angular-sanitize\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\package.json">
+      <PackagePath>www\lib\angular-sanitize\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\.bower.json">
+      <PackagePath>www\lib\angular-ui-router\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:03.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\bower.json">
+      <PackagePath>www\lib\angular-ui-router\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\.bower.json">
+      <PackagePath>www\lib\angular\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:02.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\bower.json">
+      <PackagePath>www\lib\angular\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\package.json">
+      <PackagePath>www\lib\angular\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:10.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\.bower.json">
+      <PackagePath>www\lib\auth0-angular\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:04.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\bower.json">
+      <PackagePath>www\lib\auth0-angular\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\nodejs\package.json">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\nodejs\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\package.json">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\package.json">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:11.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\package.json">
+      <PackagePath>www\lib\auth0-angular\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:12.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\.bower.json">
+      <PackagePath>www\lib\auth0-lock\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:05.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\bower.json">
+      <PackagePath>www\lib\auth0-lock\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:12.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\package.json">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\ar.json">
+      <PackagePath>www\lib\auth0-lock\i18n\ar.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\da.json">
+      <PackagePath>www\lib\auth0-lock\i18n\da.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\de.json">
+      <PackagePath>www\lib\auth0-lock\i18n\de.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\en.json">
+      <PackagePath>www\lib\auth0-lock\i18n\en.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\es.json">
+      <PackagePath>www\lib\auth0-lock\i18n\es.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\fr-FR.json">
+      <PackagePath>www\lib\auth0-lock\i18n\fr-FR.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\he.json">
+      <PackagePath>www\lib\auth0-lock\i18n\he.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\it.json">
+      <PackagePath>www\lib\auth0-lock\i18n\it.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\ja.json">
+      <PackagePath>www\lib\auth0-lock\i18n\ja.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\ko.json">
+      <PackagePath>www\lib\auth0-lock\i18n\ko.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\nb-NO.json">
+      <PackagePath>www\lib\auth0-lock\i18n\nb-NO.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\nl-NL.json">
+      <PackagePath>www\lib\auth0-lock\i18n\nl-NL.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\pl.json">
+      <PackagePath>www\lib\auth0-lock\i18n\pl.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\pt-BR.json">
+      <PackagePath>www\lib\auth0-lock\i18n\pt-BR.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\pt.json">
+      <PackagePath>www\lib\auth0-lock\i18n\pt.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\ru.json">
+      <PackagePath>www\lib\auth0-lock\i18n\ru.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\sv.json">
+      <PackagePath>www\lib\auth0-lock\i18n\sv.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\tlh.json">
+      <PackagePath>www\lib\auth0-lock\i18n\tlh.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\tr.json">
+      <PackagePath>www\lib\auth0-lock\i18n\tr.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\zh-TW.json">
+      <PackagePath>www\lib\auth0-lock\i18n\zh-TW.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\i18n\zh.json">
+      <PackagePath>www\lib\auth0-lock\i18n\zh.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\package.json">
+      <PackagePath>www\lib\auth0-lock\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\fonts\selection.json">
+      <PackagePath>www\lib\auth0-lock\support\fonts\selection.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\.bower.json">
+      <PackagePath>www\lib\auth0.js\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:07.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\bower.json">
+      <PackagePath>www\lib\auth0.js\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\package.json">
+      <PackagePath>www\lib\auth0.js\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\.bower.json">
+      <PackagePath>www\lib\ion-autocomplete\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:07.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\bower.json">
+      <PackagePath>www\lib\ion-autocomplete\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:13.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\package.json">
+      <PackagePath>www\lib\ion-autocomplete\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:14.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\.bower.json">
+      <PackagePath>www\lib\ionic-datepicker\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:08.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\bower.json">
+      <PackagePath>www\lib\ionic-datepicker\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:15.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\package.json">
+      <PackagePath>www\lib\ionic-datepicker\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:15.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\.bower.json">
+      <PackagePath>www\lib\ionic\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:07.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\bower.json">
+      <PackagePath>www\lib\ionic\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:14.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\.bower.json">
+      <PackagePath>www\lib\ngCordova\.bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:09.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\bower.json">
+      <PackagePath>www\lib\ngCordova\bower.json</PackagePath>
+      <Modified>2016-11-05T21:32:15.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\package.json">
+      <PackagePath>www\lib\ngCordova\package.json</PackagePath>
+      <Modified>2016-11-05T21:32:15.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\History.md">
+      <PackagePath>www\lib\a0-angular-storage\History.md</PackagePath>
+      <Modified>2016-11-05T21:32:02.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\README.md">
+      <PackagePath>www\lib\a0-angular-storage\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:02.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\README.md">
+      <PackagePath>www\lib\angular-animate\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\History.md">
+      <PackagePath>www\lib\angular-jwt\History.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\README.md">
+      <PackagePath>www\lib\angular-jwt\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\README.md">
+      <PackagePath>www\lib\angular-messages\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\README.md">
+      <PackagePath>www\lib\angular-resource\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\README.md">
+      <PackagePath>www\lib\angular-sanitize\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\CHANGELOG.md">
+      <PackagePath>www\lib\angular-ui-router\CHANGELOG.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\CONTRIBUTING.md">
+      <PackagePath>www\lib\angular-ui-router\CONTRIBUTING.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\README.md">
+      <PackagePath>www\lib\angular-ui-router\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\README.md">
+      <PackagePath>www\lib\angular\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:03.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\CHANGELOG.md">
+      <PackagePath>www\lib\auth0-angular\CHANGELOG.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\docs\calling-an-api.md">
+      <PackagePath>www\lib\auth0-angular\docs\calling-an-api.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\docs\link-accounts.md">
+      <PackagePath>www\lib\auth0-angular\docs\link-accounts.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\docs\refresh-token.md">
+      <PackagePath>www\lib\auth0-angular\docs\refresh-token.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\docs\routing.md">
+      <PackagePath>www\lib\auth0-angular\docs\routing.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\docs\storing-information.md">
+      <PackagePath>www\lib\auth0-angular\docs\storing-information.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\docs\testing.md">
+      <PackagePath>www\lib\auth0-angular\docs\testing.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-login\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\custom-login\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\custom-signup\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\custom-signup\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\delegation-token\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\delegation-token\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\redirect\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\redirect\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\refresh-token\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\refresh-token\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\sso\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\sso\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\ui-router\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\ui-router\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-redirect\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\widget-redirect\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:05.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-api\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-api\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:05.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget-with-thirdparty-api\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\widget-with-thirdparty-api\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:05.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\widget\README.md">
+      <PackagePath>www\lib\auth0-angular\examples\widget\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:04.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\README.md">
+      <PackagePath>www\lib\auth0-angular\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:05.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\CHANGELOG.md">
+      <PackagePath>www\lib\auth0-lock\CHANGELOG.md</PackagePath>
+      <Modified>2016-11-05T21:32:05.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\examples\webpack\README.md">
+      <PackagePath>www\lib\auth0-lock\examples\webpack\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:06.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\README.md">
+      <PackagePath>www\lib\auth0-lock\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:06.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\fonts\README.md">
+      <PackagePath>www\lib\auth0-lock\support\fonts\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:07.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\CHANGELOG.md">
+      <PackagePath>www\lib\auth0.js\CHANGELOG.md</PackagePath>
+      <Modified>2016-11-05T21:32:07.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\README.md">
+      <PackagePath>www\lib\auth0.js\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:07.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\README.md">
+      <PackagePath>www\lib\ion-autocomplete\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:07.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\RELEASENOTES.md">
+      <PackagePath>www\lib\ion-autocomplete\RELEASENOTES.md</PackagePath>
+      <Modified>2016-11-05T21:32:07.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\LICENSE.MD">
+      <PackagePath>www\lib\ionic-datepicker\LICENSE.MD</PackagePath>
+      <Modified>2016-11-05T21:32:08.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic-datepicker\README.md">
+      <PackagePath>www\lib\ionic-datepicker\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:08.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\README.md">
+      <PackagePath>www\lib\ionic\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:08.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\CHANGELOG.md">
+      <PackagePath>www\lib\ngCordova\CHANGELOG.md</PackagePath>
+      <Modified>2016-11-05T21:32:09.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\README.md">
+      <PackagePath>www\lib\ngCordova\README.md</PackagePath>
+      <Modified>2016-11-05T21:32:09.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\LICENSE.txt">
+      <PackagePath>www\lib\a0-angular-storage\LICENSE.txt</PackagePath>
+      <Modified>2016-11-05T21:32:02.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-jwt\LICENSE.txt">
+      <PackagePath>www\lib\angular-jwt\LICENSE.txt</PackagePath>
+      <Modified>2016-11-05T21:32:03.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js.map</PackagePath>
+      <Modified>2016-11-05T21:32:03.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-messages\angular-messages.min.js.map">
+      <PackagePath>www\lib\angular-messages\angular-messages.min.js.map</PackagePath>
+      <Modified>2016-11-05T21:32:03.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-resource\angular-resource.min.js.map">
+      <PackagePath>www\lib\angular-resource\angular-resource.min.js.map</PackagePath>
+      <Modified>2016-11-05T21:32:03.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+      <Modified>2016-11-05T21:32:03.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+      <Modified>2016-11-05T21:32:03.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\api\angular-ui-router.d.ts">
+      <PackagePath>www\lib\angular-ui-router\api\angular-ui-router.d.ts</PackagePath>
+      <Modified>2016-11-05T21:32:03.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular-ui-router\LICENSE">
+      <PackagePath>www\lib\angular-ui-router\LICENSE</PackagePath>
+      <Modified>2016-11-05T21:32:03.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\html5mode\Procfile">
+      <PackagePath>www\lib\auth0-angular\examples\html5mode\Procfile</PackagePath>
+      <Modified>2016-11-05T21:32:04.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\LICENSE">
+      <PackagePath>www\lib\auth0-lock\LICENSE</PackagePath>
+      <Modified>2016-11-05T21:32:06.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\bin\deploy">
+      <PackagePath>www\lib\auth0.js\bin\deploy</PackagePath>
+      <Modified>2016-11-05T21:32:07.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\bin\version">
+      <PackagePath>www\lib\auth0.js\bin\version</PackagePath>
+      <Modified>2016-11-05T21:32:07.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ion-autocomplete\LICENSE">
+      <PackagePath>www\lib\ion-autocomplete\LICENSE</PackagePath>
+      <Modified>2016-11-05T21:32:07.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ngCordova\LICENSE">
+      <PackagePath>www\lib\ngCordova\LICENSE</PackagePath>
+      <Modified>2016-11-05T21:32:09.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+      <Modified>2016-11-05T21:32:03.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\.bowerrc">
+      <PackagePath>www\lib\auth0-angular\.bowerrc</PackagePath>
+      <Modified>2016-11-05T21:32:04.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\.gitignore">
+      <PackagePath>www\lib\auth0-angular\.gitignore</PackagePath>
+      <Modified>2016-11-05T21:32:04.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\.gitignore">
+      <PackagePath>www\lib\auth0-lock\.gitignore</PackagePath>
+      <Modified>2016-11-05T21:32:05.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\.gitignore">
+      <PackagePath>www\lib\auth0.js\.gitignore</PackagePath>
+      <Modified>2016-11-05T21:32:07.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\.jshintrc">
+      <PackagePath>www\lib\auth0-angular\.jshintrc</PackagePath>
+      <Modified>2016-11-05T21:32:04.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-angular\examples\requirejs\.jshintrc">
+      <PackagePath>www\lib\auth0-angular\examples\requirejs\.jshintrc</PackagePath>
+      <Modified>2016-11-05T21:32:04.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\.jshintrc">
+      <PackagePath>www\lib\auth0-lock\.jshintrc</PackagePath>
+      <Modified>2016-11-05T21:32:05.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\.jshintrc">
+      <PackagePath>www\lib\auth0.js\.jshintrc</PackagePath>
+      <Modified>2016-11-05T21:32:07.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\.npmignore">
+      <PackagePath>www\lib\auth0-lock\.npmignore</PackagePath>
+      <Modified>2016-11-05T21:32:05.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\.zuul.yml">
+      <PackagePath>www\lib\auth0-lock\.zuul.yml</PackagePath>
+      <Modified>2016-11-05T21:32:05.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0.js\.zuul.yml">
+      <PackagePath>www\lib\auth0.js\.zuul.yml</PackagePath>
+      <Modified>2016-11-05T21:32:07.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\animate.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\animate.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\common.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\common.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\keyframes.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\keyframes.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\main.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\main.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\normalize.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\normalize.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\reset.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\reset.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\themes\default.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\themes\default.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\css\zocial.less">
+      <PackagePath>www\lib\auth0-lock\lib\css\zocial.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\support\development-demo\index.less">
+      <PackagePath>www\lib\auth0-lock\support\development-demo\index.less</PackagePath>
+      <Modified>2016-11-05T21:32:06.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\header\lock-header.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\header\lock-header.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\html\lock-footer.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\html\lock-footer.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\html\lock.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\html\lock.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\html\main.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\html\main.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\html\zocial-button.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\html\zocial-button.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-kerberos\loggedin.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-kerberos\loggedin.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-kerberos\loggedin_button.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-kerberos\loggedin_button.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-loading\loading.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-loading\loading.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-loggedin\loggedin.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-loggedin\loggedin.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-loggedin\loggedin_button.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-loggedin\loggedin_button.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-reset\reset.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-reset\reset.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-signin\login_actions.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-signin\login_actions.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-signin\signin.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-signin\signin.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\lib\mode-signup\signup.ejs">
+      <PackagePath>www\lib\auth0-lock\lib\mode-signup\signup.ejs</PackagePath>
+      <Modified>2016-11-05T21:32:06.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+      <Modified>2016-11-05T21:32:08.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-11-05T21:32:00.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-05T22:28:12.755</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

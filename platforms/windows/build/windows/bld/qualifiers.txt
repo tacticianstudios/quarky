@@ -1,0 +1,5 @@
+Custom=LOGIN
+Custom=SIGNUP
+Language=EN-US
+Language=IS-SMALL-SCREEN
+Scale=100

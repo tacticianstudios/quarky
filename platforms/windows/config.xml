@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="221" id="com.quarkyapp.com.quarkyapp.quarky" ios-CFBundleVersion="0.1.25" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Quarky</name>
+    <description>
+        Elevate yourself and your friends.
+    </description>
+    <author email="derek@quarkyapp.com" href="http://quarkyapp.com/">
+      Quarky is a creation by Soul Hole Productions, LLC
+      Programming by Derek D. Baron
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="*.pushwoosh.com" />
+    <access launch-external="yes" origin="tel:*" />
+    <access launch-external="yes" origin="sms:*" />
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="deployment-target" value="8.0" />
+</widget>

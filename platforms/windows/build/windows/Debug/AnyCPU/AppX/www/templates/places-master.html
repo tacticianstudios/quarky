@@ -1,0 +1,41 @@
+﻿<!--
+app.places-master
+This is the entry view for Places
+It determines location and presents the first level of search and filtering
+-->
+
+<ion-view title="Places">
+    <ion-header-bar class="bar-royal bar-subheader item-input-inset">
+        <button class="button button-clear button-icon ion-gear-a" ng-click="searchSettings()">
+        </button>
+        <!--<label class="item-input-wrapper">
+            <i class="icon ion-ios-search placeholder-icon"></i>
+            <input ng-model="search.text" type="search" placeholder="Search places">
+        </label>-->
+        <label class="item-input-wrapper">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input ion-autocomplete type="text"
+                   template-url="templates/search.html"
+                   placeholder="Search Places..."
+                   select-items-label="Choose one: "
+                   cancel-label="Cancel"
+                   loading-icon="lines"
+                   ng-model="searchModel.lastPlaceSearch"
+                   readonly="readonly" class="ion-autocomplete" autocomplete="off"
+                   items-method="autocompleteCallback(query, isInitializing)"
+                   item-value-key="name" item-view-value-key="name"
+                   items-clicked-method="autocompleteSelectedItem(callback)"
+                   max-selected-items="1" />
+        </label>
+    </ion-header-bar>
+    <ion-content class="category-bg has-header has-subheader" ng-init="bootstrapFeed()"
+                 ng-controller="PlacesMasterCtrl">
+        <div ng-show="myPosition.error">
+            Location Error ({{myPosition.error.code}}): {{myPosition.error.message}}
+        </div>
+        <span ng-repeat="p in posts">
+                <a data-ng-click="doGallery(p)">
+                    <img style="display: block;" data-ng-src="{{p.featured_image.local}}" width="100%" alt="">
+                </a>
+        </span></ion-content>
+</ion-view>

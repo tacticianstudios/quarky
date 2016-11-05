@@ -1,0 +1,2 @@
+Language=IS-SMALL-SCREEN
+Scale=100

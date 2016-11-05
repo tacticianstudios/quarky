@@ -1,0 +1,3320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="20591TacticianStudios.Quarky" version="1.0" primary="true">
+		<Qualifiers>
+			<Custom>LOGIN,SIGNUP</Custom>
+			<Language>EN-US</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://20591TacticianStudios.Quarky/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/SplashScreen.png">
+					<Candidate type="Path">
+						<Value>images\SplashScreen.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenPhone.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/SplashScreenPhone.png">
+					<Candidate type="Path">
+						<Value>images\SplashScreenPhone.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Square150x150Logo.png">
+					<Candidate type="Path">
+						<Value>images\Square150x150Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Square30x30Logo.png">
+					<Candidate type="Path">
+						<Value>images\Square30x30Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Square310x310Logo.png">
+					<Candidate type="Path">
+						<Value>images\Square310x310Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Square44x44Logo.png">
+					<Candidate type="Path">
+						<Value>images\Square44x44Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Square70x70Logo.png">
+					<Candidate type="Path">
+						<Value>images\Square70x70Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Square71x71Logo.png">
+					<Candidate type="Path">
+						<Value>images\Square71x71Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>images\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/images/Wide310x150Logo.png">
+					<Candidate type="Path">
+						<Value>images\Wide310x150Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinJS">
+				<ResourceMapSubtree name="css">
+					<NamedResource name="ui-dark.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/WinJS/css/ui-dark.css">
+						<Candidate type="Path">
+							<Value>WinJS\css\ui-dark.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ui-light.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/WinJS/css/ui-light.css">
+						<Candidate type="Path">
+							<Value>WinJS\css\ui-light.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="fonts">
+					<NamedResource name="Symbols.ttf" uri="ms-resource://20591TacticianStudios.Quarky/Files/WinJS/fonts/Symbols.ttf">
+						<Candidate type="Path">
+							<Value>WinJS\fonts\Symbols.ttf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="ui.strings.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/WinJS/js/ui.strings.js">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="Path">
+							<Value>WinJS\js\en-US\ui.strings.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WinJS.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/WinJS/js/WinJS.js">
+						<Candidate type="Path">
+							<Value>WinJS\js\WinJS.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="cordova.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="cordova-js-src">
+					<NamedResource name="exec.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/cordova-js-src/exec.js">
+						<Candidate type="Path">
+							<Value>www\cordova-js-src\exec.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="platform.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/cordova-js-src/platform.js">
+						<Candidate type="Path">
+							<Value>www\cordova-js-src\platform.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="ionic.app.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/css/ionic.app.css">
+						<Candidate type="Path">
+							<Value>www\css\ionic.app.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ionic.app.min.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/css/ionic.app.min.css">
+						<Candidate type="Path">
+							<Value>www\css\ionic.app.min.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="fonts">
+					<ResourceMapSubtree name="gloriahallelujah">
+						<NamedResource name="gloriahallelujah.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/gloriahallelujah/gloriahallelujah.css">
+							<Candidate type="Path">
+								<Value>www\fonts\gloriahallelujah\gloriahallelujah.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gloriahallelujah.eot" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/gloriahallelujah/gloriahallelujah.eot">
+							<Candidate type="Path">
+								<Value>www\fonts\gloriahallelujah\gloriahallelujah.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gloriahallelujah.svg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/gloriahallelujah/gloriahallelujah.svg">
+							<Candidate type="Path">
+								<Value>www\fonts\gloriahallelujah\gloriahallelujah.svg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gloriahallelujah.ttf" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/gloriahallelujah/gloriahallelujah.ttf">
+							<Candidate type="Path">
+								<Value>www\fonts\gloriahallelujah\gloriahallelujah.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gloriahallelujah.woff" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/gloriahallelujah/gloriahallelujah.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\gloriahallelujah\gloriahallelujah.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gloriahallelujah.woff2" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/gloriahallelujah/gloriahallelujah.woff2">
+							<Candidate type="Path">
+								<Value>www\fonts\gloriahallelujah\gloriahallelujah.woff2</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="sourcesanspro">
+						<NamedResource name="SourceSansPro-Regular.woff2" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/sourcesanspro/SourceSansPro-Regular.woff2">
+							<Candidate type="Path">
+								<Value>www\fonts\sourcesanspro\SourceSansPro-Regular.woff2</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ubuntu">
+						<NamedResource name="Ubuntu.woff" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/fonts/ubuntu/Ubuntu.woff">
+							<Candidate type="Path">
+								<Value>www\fonts\ubuntu\Ubuntu.woff</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="img">
+					<NamedResource name="bg-abstract-blue.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/bg-abstract-blue.jpg">
+						<Candidate type="Path">
+							<Value>www\img\bg-abstract-blue.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bg-black-paisley.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/bg-black-paisley.jpg">
+						<Candidate type="Path">
+							<Value>www\img\bg-black-paisley.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bg-black-texture.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/bg-black-texture.jpg">
+						<Candidate type="Path">
+							<Value>www\img\bg-black-texture.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bg-electric-blue.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/bg-electric-blue.jpg">
+						<Candidate type="Path">
+							<Value>www\img\bg-electric-blue.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bg-soulhole.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/bg-soulhole.jpg">
+						<Candidate type="Path">
+							<Value>www\img\bg-soulhole.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bg.gif" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/bg.gif">
+						<Candidate type="Path">
+							<Value>www\img\bg.gif</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="coming-soon.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/coming-soon.png">
+						<Candidate type="Path">
+							<Value>www\img\coming-soon.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="grey-bg.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/grey-bg.jpg">
+						<Candidate type="Path">
+							<Value>www\img\grey-bg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ionic.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/ionic.png">
+						<Candidate type="Path">
+							<Value>www\img\ionic.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="quarky-bg.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/quarky-bg.jpg">
+						<Candidate type="Path">
+							<Value>www\img\quarky-bg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="quarkycon.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/quarkycon.png">
+						<Candidate type="Path">
+							<Value>www\img\quarkycon.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="quarkyGuru-intro.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/quarkyGuru-intro.jpg">
+						<Candidate type="Path">
+							<Value>www\img\quarkyGuru-intro.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="quarkyIcon512.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/quarkyIcon512.png">
+						<Candidate type="Path">
+							<Value>www\img\quarkyIcon512.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="splash.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/splash.png">
+						<Candidate type="Path">
+							<Value>www\img\splash.png</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="guru-nav">
+						<NamedResource name="Coming-Soon.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/Coming-Soon.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\Coming-Soon.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYourgame.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYourgame.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYourgame.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYourInfo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYourInfo.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYourInfo.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYouroptions.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYouroptions.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYouroptions.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYourself.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYourself.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYourself.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYourskills.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYourskills.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYourskills.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYourspirit.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYourspirit.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYourspirit.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElevateYourStory.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/ElevateYourStory.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\ElevateYourStory.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="My-Stuff.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/My-Stuff.png">
+							<Candidate type="Path">
+								<Value>www\img\guru-nav\My-Stuff.png</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="about">
+							<NamedResource name="Credits.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/about/Credits.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\about\Credits.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="legal-disclaimers.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/about/legal-disclaimers.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\about\legal-disclaimers.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Partners.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/about/Partners.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\about\Partners.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Tips-Tricks.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/about/Tips-Tricks.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\about\Tips-Tricks.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="eGame">
+							<NamedResource name="Books-that-Matter.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eGame/Books-that-Matter.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eGame\Books-that-Matter.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Boot-Camp-1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eGame/Boot-Camp-1.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eGame\Boot-Camp-1.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Equpment.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eGame/Equpment.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eGame\Equpment.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Game-Plans-1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eGame/Game-Plans-1.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eGame\Game-Plans-1.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Get-a-job.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eGame/Get-a-job.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eGame\Get-a-job.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Money-Smart.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eGame/Money-Smart.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eGame\Money-Smart.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="eInfo">
+							<NamedResource name="A-D.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eInfo/A-D.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eInfo\A-D.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="E-H.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eInfo/E-H.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eInfo\E-H.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="I-L.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eInfo/I-L.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eInfo\I-L.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="M-P.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eInfo/M-P.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eInfo\M-P.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Q-T.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eInfo/Q-T.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eInfo\Q-T.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="U-Z.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eInfo/U-Z.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eInfo\U-Z.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="eOptions">
+							<NamedResource name="Ask-Jason.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eOptions/Ask-Jason.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eOptions\Ask-Jason.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Good-Advice-Bad-Advice.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eOptions/Good-Advice-Bad-Advice.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eOptions\Good-Advice-Bad-Advice.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Share-Your-Story.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eOptions/Share-Your-Story.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eOptions\Share-Your-Story.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Stories-with-Support-1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eOptions/Stories-with-Support-1.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eOptions\Stories-with-Support-1.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="eSelf">
+							<NamedResource name="attitude.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/attitude.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\attitude.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="encouragement.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/encouragement.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\encouragement.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="family.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/family.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\family.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Friends.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/Friends.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\Friends.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="higherlearning.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/higherlearning.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\higherlearning.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Love.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/Love.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\Love.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="random.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/random.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\random.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Share-your-inspiration.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/Share-your-inspiration.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\Share-your-inspiration.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="whoAmI.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSelf/whoAmI.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSelf\whoAmI.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="eSkills">
+							<NamedResource name="Reasons.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Reasons.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Reasons.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Recognize.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Recognize.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Recognize.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Refferals.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Refferals.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Refferals.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Relationships.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Relationships.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Relationships.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Research.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Research.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Research.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Resilience.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Resilience.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Resilience.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Response.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSkills/Response.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSkills\Response.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="eSpirit">
+							<NamedResource name="Belonging2.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSpirit/Belonging2.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSpirit\Belonging2.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Concern-for-Others2.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSpirit/Concern-for-Others2.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSpirit\Concern-for-Others2.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="hope2.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSpirit/hope2.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSpirit\hope2.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Life-and-Death.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSpirit/Life-and-Death.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSpirit\Life-and-Death.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Meaning-1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSpirit/Meaning-1.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSpirit\Meaning-1.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Worth.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/guru-nav/eSpirit/Worth.png">
+								<Candidate type="Path">
+									<Value>www\img\guru-nav\eSpirit\Worth.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="intro">
+						<NamedResource name="guru_2015-08-30_15-54-13.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/guru_2015-08-30_15-54-13.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\guru_2015-08-30_15-54-13.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="guru_tablet7_2015-08-30_16-11-33.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/guru_tablet7_2015-08-30_16-11-33.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\guru_tablet7_2015-08-30_16-11-33.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="hub2_2015-08-30_15-57-51.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/hub2_2015-08-30_15-57-51.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\hub2_2015-08-30_15-57-51.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="hub_2015-08-30_15-49-49.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/hub_2015-08-30_15-49-49.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\hub_2015-08-30_15-49-49.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="icon510.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/icon510.png">
+							<Candidate type="Path">
+								<Value>www\img\intro\icon510.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="icon512.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/icon512.png">
+							<Candidate type="Path">
+								<Value>www\img\intro\icon512.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="places_2015-08-30_15-54-53.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/places_2015-08-30_15-54-53.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\places_2015-08-30_15-54-53.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="places_tablet10_2015-08-30_16-20-29.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/places_tablet10_2015-08-30_16-20-29.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\places_tablet10_2015-08-30_16-20-29.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Quarky-feature-graphic.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/Quarky-feature-graphic.png">
+							<Candidate type="Path">
+								<Value>www\img\intro\Quarky-feature-graphic.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="sidemenu_2015-08-30_15-51-45.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/intro/sidemenu_2015-08-30_15-51-45.jpg">
+							<Candidate type="Path">
+								<Value>www\img\intro\sidemenu_2015-08-30_15-51-45.jpg</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="places">
+						<NamedResource name="Places-for-Fun.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/Places-for-Fun.jpg">
+							<Candidate type="Path">
+								<Value>www\img\places\Places-for-Fun.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Places-for-Help.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/Places-for-Help.jpg">
+							<Candidate type="Path">
+								<Value>www\img\places\Places-for-Help.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Places-to-Serve.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/Places-to-Serve.jpg">
+							<Candidate type="Path">
+								<Value>www\img\places\Places-to-Serve.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Share-a-Place-Banner.jpg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/Share-a-Place-Banner.jpg">
+							<Candidate type="Path">
+								<Value>www\img\places\Share-a-Place-Banner.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="fun">
+							<NamedResource name="AE-Venues.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/AE-Venues.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\AE-Venues.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Build-Skills.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Build-Skills.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Build-Skills.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Clubs.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Clubs.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Clubs.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Expression.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Expression.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Expression.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Food-and-Events.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Food-and-Events.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Food-and-Events.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Free.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Free.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Free.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Hobbies.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Hobbies.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Hobbies.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Outdoors.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Outdoors.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Outdoors.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Random-Fun.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Random-Fun.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Random-Fun.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Random-Fun2.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Random-Fun2.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Random-Fun2.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Shop-and-Travel.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Shop-and-Travel.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Shop-and-Travel.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Sports-and-Rec.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Sports-and-Rec.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Sports-and-Rec.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Sports-and-Rec1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/fun/Sports-and-Rec1.png">
+								<Candidate type="Path">
+									<Value>www\img\places\fun\Sports-and-Rec1.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="help">
+							<NamedResource name="Care.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Care.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Care.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Education.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Education.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Education.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Emergency.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Emergency.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Emergency.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Food.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Food.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Food.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Goods.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Goods.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Goods.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Health.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Health.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Health.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Housing.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Housing.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Housing.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Legal.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Legal.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Legal.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Money.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Money.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Money.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Transit.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Transit.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Transit.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Work.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/help/Work.png">
+								<Candidate type="Path">
+									<Value>www\img\places\help\Work.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="service">
+							<NamedResource name="donate.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/service/donate.png">
+								<Candidate type="Path">
+									<Value>www\img\places\service\donate.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="recycle.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/service/recycle.png">
+								<Candidate type="Path">
+									<Value>www\img\places\service\recycle.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Volunteer-1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/service/Volunteer-1.png">
+								<Candidate type="Path">
+									<Value>www\img\places\service\Volunteer-1.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="worship-1.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/img/places/service/worship-1.png">
+								<Candidate type="Path">
+									<Value>www\img\places\service\worship-1.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="about-module.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/about-module.js">
+						<Candidate type="Path">
+							<Value>www\js\about-module.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/app.js">
+						<Candidate type="Path">
+							<Value>www\js\app.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="guru-module.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/guru-module.js">
+						<Candidate type="Path">
+							<Value>www\js\guru-module.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home-module.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/home-module.js">
+						<Candidate type="Path">
+							<Value>www\js\home-module.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="lb-services.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/lb-services.js">
+						<Candidate type="Path">
+							<Value>www\js\lb-services.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="menu.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/menu.js">
+						<Candidate type="Path">
+							<Value>www\js\menu.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="places-module.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/places-module.js">
+						<Candidate type="Path">
+							<Value>www\js\places-module.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="profile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/profile.js">
+						<Candidate type="Path">
+							<Value>www\js\profile.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="templates.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/js/templates.js">
+						<Candidate type="Path">
+							<Value>www\js\templates.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="lib">
+					<NamedResource name="ionic-image-lazy-load.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-image-lazy-load.js">
+						<Candidate type="Path">
+							<Value>www\lib\ionic-image-lazy-load.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ionic.ion.imagecachefactory.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic.ion.imagecachefactory.js">
+						<Candidate type="Path">
+							<Value>www\lib\ionic.ion.imagecachefactory.js</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="a0-angular-storage">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gulpfile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/gulpfile.js">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\gulpfile.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="History.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/History.md">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\History.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-dist-concatenated.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/karma-dist-concatenated.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\karma-dist-concatenated.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-dist-minified.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/karma-dist-minified.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\karma-dist-minified.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-src-all.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/karma-src-all.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\karma-src-all.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-src.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/karma-src.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\karma-src.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE.txt" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/LICENSE.txt">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\LICENSE.txt</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\a0-angular-storage\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="dist">
+							<NamedResource name="angular-storage.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/dist/angular-storage.js">
+								<Candidate type="Path">
+									<Value>www\lib\a0-angular-storage\dist\angular-storage.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="angular-storage.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/a0-angular-storage/dist/angular-storage.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\a0-angular-storage\dist\angular-storage.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-csp.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/angular-csp.css">
+							<Candidate type="Path">
+								<Value>www\lib\angular\angular-csp.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/angular.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular\angular.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/angular.min.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular\angular.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular.min.js.gzip" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/angular.min.js.gzip">
+							<Candidate type="Path">
+								<Value>www\lib\angular\angular.min.js.gzip</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular.min.js.map" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/angular.min.js.map">
+							<Candidate type="Path">
+								<Value>www\lib\angular\angular.min.js.map</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular\README.md</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular-animate">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-animate.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/angular-animate.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\angular-animate.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-animate.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/angular-animate.min.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\angular-animate.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-animate.min.js.map" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/angular-animate.min.js.map">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\angular-animate.min.js.map</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-animate/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-animate\README.md</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular-jwt">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gulpfile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/gulpfile.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\gulpfile.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="History.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/History.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\History.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-dist-concatenated.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/karma-dist-concatenated.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\karma-dist-concatenated.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-dist-minified.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/karma-dist-minified.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\karma-dist-minified.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma-src.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/karma-src.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\karma-src.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE.txt" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/LICENSE.txt">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\LICENSE.txt</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-jwt\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="dist">
+							<NamedResource name="angular-jwt.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/dist/angular-jwt.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-jwt\dist\angular-jwt.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="angular-jwt.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-jwt/dist/angular-jwt.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-jwt\dist\angular-jwt.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular-messages">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-messages.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/angular-messages.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\angular-messages.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-messages.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/angular-messages.min.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\angular-messages.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-messages.min.js.map" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/angular-messages.min.js.map">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\angular-messages.min.js.map</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-messages/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-messages\README.md</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular-resource">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-resource.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/angular-resource.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\angular-resource.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-resource.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/angular-resource.min.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\angular-resource.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-resource.min.js.map" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/angular-resource.min.js.map">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\angular-resource.min.js.map</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-resource/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-resource\README.md</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular-sanitize">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-sanitize.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/angular-sanitize.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\angular-sanitize.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-sanitize.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/angular-sanitize.min.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\angular-sanitize.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="angular-sanitize.min.js.map" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/angular-sanitize.min.js.map">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\angular-sanitize.min.js.map</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-sanitize/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-sanitize\README.md</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="angular-ui-router">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-ui-router\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\angular-ui-router\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CHANGELOG.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/CHANGELOG.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-ui-router\CHANGELOG.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CONTRIBUTING.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/CONTRIBUTING.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-ui-router\CONTRIBUTING.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/LICENSE">
+							<Candidate type="Path">
+								<Value>www\lib\angular-ui-router\LICENSE</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\angular-ui-router\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="api">
+							<NamedResource name="angular-ui-router.d.ts" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/api/angular-ui-router.d.ts">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\api\angular-ui-router.d.ts</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="release">
+							<NamedResource name="angular-ui-router.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/release/angular-ui-router.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\release\angular-ui-router.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="angular-ui-router.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/release/angular-ui-router.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\release\angular-ui-router.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="src">
+							<NamedResource name="common.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/common.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\common.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="resolve.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/resolve.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\resolve.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="state.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/state.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\state.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="stateDirectives.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/stateDirectives.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\stateDirectives.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="stateFilters.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/stateFilters.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\stateFilters.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="templateFactory.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/templateFactory.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\templateFactory.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="urlMatcherFactory.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/urlMatcherFactory.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\urlMatcherFactory.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="urlRouter.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/urlRouter.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\urlRouter.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="view.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/view.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\view.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="viewDirective.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/viewDirective.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\viewDirective.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="viewScroll.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/angular-ui-router/src/viewScroll.js">
+								<Candidate type="Path">
+									<Value>www\lib\angular-ui-router\src\viewScroll.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="auth0-angular">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".bowerrc" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/.bowerrc">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\.bowerrc</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".gitignore" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/.gitignore">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\.gitignore</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".jshintrc" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/.jshintrc">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\.jshintrc</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CHANGELOG.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/CHANGELOG.md">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\CHANGELOG.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Gruntfile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/Gruntfile.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\Gruntfile.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="karma.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/karma.conf.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\karma.conf.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-angular\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="build">
+							<NamedResource name="auth0-angular.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/build/auth0-angular.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\build\auth0-angular.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="auth0-angular.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/build/auth0-angular.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\build\auth0-angular.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="docs">
+							<NamedResource name="calling-an-api.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/docs/calling-an-api.md">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\docs\calling-an-api.md</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="link-accounts.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/docs/link-accounts.md">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\docs\link-accounts.md</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="refresh-token.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/docs/refresh-token.md">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\docs\refresh-token.md</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="routing.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/docs/routing.md">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\docs\routing.md</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="storing-information.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/docs/storing-information.md">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\docs\storing-information.md</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="testing.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/docs/testing.md">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\docs\testing.md</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="examples">
+							<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/index.html">
+								<Candidate qualifiers="Custom-LOGIN" type="Path">
+									<Value>www\lib\auth0-angular\examples\custom-login\index.html</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/README.md">
+								<Candidate qualifiers="Custom-SIGNUP" type="Path">
+									<Value>www\lib\auth0-angular\examples\custom-signup\README.md</Value>
+								</Candidate>
+								<Candidate qualifiers="Custom-LOGIN" type="Path">
+									<Value>www\lib\auth0-angular\examples\custom-login\README.md</Value>
+								</Candidate>
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\examples\README.md</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="client">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/client/index.html">
+									<Candidate qualifiers="Custom-SIGNUP" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-signup\client\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="scripts">
+									<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/client/scripts/controllers.js">
+										<Candidate qualifiers="Custom-SIGNUP" type="Path">
+											<Value>www\lib\auth0-angular\examples\custom-signup\client\scripts\controllers.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/client/scripts/myApp.js">
+										<Candidate qualifiers="Custom-SIGNUP" type="Path">
+											<Value>www\lib\auth0-angular\examples\custom-signup\client\scripts\myApp.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="views">
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/client/views/login.html">
+										<Candidate qualifiers="Custom-SIGNUP" type="Path">
+											<Value>www\lib\auth0-angular\examples\custom-signup\client\views\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/client/views/logout.html">
+										<Candidate qualifiers="Custom-SIGNUP" type="Path">
+											<Value>www\lib\auth0-angular\examples\custom-signup\client\views\logout.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/client/views/root.html">
+										<Candidate qualifiers="Custom-SIGNUP" type="Path">
+											<Value>www\lib\auth0-angular\examples\custom-signup\client\views\root.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="delegation-token">
+								<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/package.json">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\delegation-token\package.json</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\delegation-token\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="server.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/server.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\delegation-token\server.js</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="client">
+									<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/client/index.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\delegation-token\client\index.html</Value>
+										</Candidate>
+									</NamedResource>
+									<ResourceMapSubtree name="scripts">
+										<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/client/scripts/controllers.js">
+											<Candidate type="Path">
+												<Value>www\lib\auth0-angular\examples\delegation-token\client\scripts\controllers.js</Value>
+											</Candidate>
+										</NamedResource>
+										<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/client/scripts/myApp.js">
+											<Candidate type="Path">
+												<Value>www\lib\auth0-angular\examples\delegation-token\client\scripts\myApp.js</Value>
+											</Candidate>
+										</NamedResource>
+									</ResourceMapSubtree>
+									<ResourceMapSubtree name="views">
+										<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/client/views/login.html">
+											<Candidate type="Path">
+												<Value>www\lib\auth0-angular\examples\delegation-token\client\views\login.html</Value>
+											</Candidate>
+										</NamedResource>
+										<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/client/views/logout.html">
+											<Candidate type="Path">
+												<Value>www\lib\auth0-angular\examples\delegation-token\client\views\logout.html</Value>
+											</Candidate>
+										</NamedResource>
+										<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/delegation-token/client/views/root.html">
+											<Candidate type="Path">
+												<Value>www\lib\auth0-angular\examples\delegation-token\client\views\root.html</Value>
+											</Candidate>
+										</NamedResource>
+									</ResourceMapSubtree>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="html5mode">
+								<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/package.json">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\html5mode\package.json</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="Procfile" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/Procfile">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\html5mode\Procfile</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\html5mode\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="server.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/server.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\html5mode\server.js</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="public">
+									<NamedResource name="app.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/public/app.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\html5mode\public\app.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/public/app.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\html5mode\public\app.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/public/index.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\html5mode\public\index.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="info.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/public/info.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\html5mode\public\info.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="main.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/html5mode/public/main.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\html5mode\public\main.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="nodejs">
+								<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/nodejs/app.js">
+									<Candidate qualifiers="Custom-SIGNUP" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-signup\nodejs\app.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/nodejs/package.json">
+									<Candidate qualifiers="Custom-SIGNUP" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-signup\nodejs\package.json</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="redirect">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\redirect\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\redirect\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="scripts">
+									<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/scripts/controllers.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\redirect\scripts\controllers.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/scripts/myApp.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\redirect\scripts\myApp.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="views">
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/views/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\redirect\views\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/views/logout.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\redirect\views\logout.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/redirect/views/root.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\redirect\views\root.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="refresh-token">
+								<NamedResource name="app.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/app.css">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\refresh-token\app.css</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/app.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\refresh-token\app.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="auth0-variables.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/auth0-variables.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\refresh-token\auth0-variables.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\refresh-token\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\refresh-token\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="home">
+									<NamedResource name="auth0_logo_final_blue_RGB.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/home/auth0_logo_final_blue_RGB.png">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\home\auth0_logo_final_blue_RGB.png</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/home/home.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\home\home.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/home/home.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\home\home.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/home/home.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\home\home.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="login">
+									<NamedResource name="login.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/login/login.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\login\login.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/login/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\login\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="login.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/refresh-token/login/login.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\refresh-token\login\login.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="requirejs">
+								<NamedResource name=".jshintrc" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/.jshintrc">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\requirejs\.jshintrc</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\requirejs\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\requirejs\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="scripts">
+									<NamedResource name="config.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/scripts/config.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\scripts\config.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/scripts/controllers.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\scripts\controllers.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/scripts/myApp.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\scripts\myApp.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="require.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/scripts/require.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\scripts\require.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="views">
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/views/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\views\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/views/logout.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\views\logout.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/requirejs/views/root.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\requirejs\views\root.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="scripts">
+								<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/scripts/controllers.js">
+									<Candidate qualifiers="Custom-LOGIN" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-login\scripts\controllers.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/scripts/myApp.js">
+									<Candidate qualifiers="Custom-LOGIN" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-login\scripts\myApp.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="sso">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\sso\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\sso\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="scripts">
+									<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/scripts/controllers.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\sso\scripts\controllers.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/scripts/myApp.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\sso\scripts\myApp.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="views">
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/views/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\sso\views\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/views/logout.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\sso\views\logout.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/sso/views/root.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\sso\views\root.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="ui-router">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\ui-router\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\ui-router\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="scripts">
+									<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/scripts/controllers.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\ui-router\scripts\controllers.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/scripts/myApp.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\ui-router\scripts\myApp.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="views">
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/views/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\ui-router\views\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/views/logout.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\ui-router\views\logout.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/ui-router/views/root.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\ui-router\views\root.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="views">
+								<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/views/login.html">
+									<Candidate qualifiers="Custom-LOGIN" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-login\views\login.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/views/logout.html">
+									<Candidate qualifiers="Custom-LOGIN" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-login\views\logout.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/views/root.html">
+									<Candidate qualifiers="Custom-LOGIN" type="Path">
+										<Value>www\lib\auth0-angular\examples\custom-login\views\root.html</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="widget">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="scripts">
+									<NamedResource name="controllers.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/scripts/controllers.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget\scripts\controllers.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="myApp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/scripts/myApp.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget\scripts\myApp.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="views">
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/views/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget\views\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="logout.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/views/logout.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget\views\logout.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="root.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget/views/root.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget\views\root.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="widget-redirect">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-redirect/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-redirect\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-redirect/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-redirect\README.md</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="widget-with-api">
+								<NamedResource name="app.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/app.css">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-api\app.css</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/app.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-api\app.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="auth0-variables.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/auth0-variables.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-api\auth0-variables.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-api\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-api\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="home">
+									<NamedResource name="auth0_logo_final_blue_RGB.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/home/auth0_logo_final_blue_RGB.png">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\home\auth0_logo_final_blue_RGB.png</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/home/home.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\home\home.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/home/home.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\home\home.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/home/home.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\home\home.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="login">
+									<NamedResource name="login.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/login/login.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\login\login.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/login/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\login\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="login.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-api/login/login.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-api\login\login.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="widget-with-thirdparty-api">
+								<NamedResource name="app.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/app.css">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\app.css</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/app.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\app.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="auth0-variables.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/auth0-variables.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\auth0-variables.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="home">
+									<NamedResource name="auth0_logo_final_blue_RGB.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/home/auth0_logo_final_blue_RGB.png">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\auth0_logo_final_blue_RGB.png</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/home/home.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/home/home.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="home.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/home/home.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\home\home.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="login">
+									<NamedResource name="login.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/login/login.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/login/login.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.html</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="login.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/examples/widget-with-thirdparty-api/login/login.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-angular\examples\widget-with-thirdparty-api\login\login.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="scenario">
+							<NamedResource name="protractor.conf.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/scenario/protractor.conf.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\scenario\protractor.conf.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="sanity.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-angular/scenario/sanity.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-angular\scenario\sanity.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="auth0-lock">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".gitignore" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/.gitignore">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\.gitignore</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".jshintrc" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/.jshintrc">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\.jshintrc</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".npmignore" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/.npmignore">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\.npmignore</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".zuul.yml" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/.zuul.yml">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\.zuul.yml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CHANGELOG.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/CHANGELOG.md">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\CHANGELOG.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Gruntfile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/Gruntfile.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\Gruntfile.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/LICENSE">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\LICENSE</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="standalone.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/standalone.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\standalone.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="test_harness.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/test_harness.html">
+							<Candidate type="Path">
+								<Value>www\lib\auth0-lock\test_harness.html</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="build">
+							<NamedResource name="auth0-lock.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/build/auth0-lock.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\build\auth0-lock.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="auth0-lock.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/build/auth0-lock.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\build\auth0-lock.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="examples">
+							<ResourceMapSubtree name="webpack">
+								<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/package.json">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\examples\webpack\package.json</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\examples\webpack\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="webpack.config.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/webpack.config.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\examples\webpack\webpack.config.js</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="public">
+									<NamedResource name="app.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/public/app.css">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\examples\webpack\public\app.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="auth0_logo.png" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/public/auth0_logo.png">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\examples\webpack\public\auth0_logo.png</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/public/index.html">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\examples\webpack\public\index.html</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="src">
+									<NamedResource name="app.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/src/app.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\examples\webpack\src\app.js</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="auth0-variables.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/examples/webpack/src/auth0-variables.js">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\examples\webpack\src\auth0-variables.js</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="i18n">
+							<NamedResource name="ar.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/ar.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\ar.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="da.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/da.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\da.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="de.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/de.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\de.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="en.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/en.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\en.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="es.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/es.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\es.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="fr-FR.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/fr-FR.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\fr-FR.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="he.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/he.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\he.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="it.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/it.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\it.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ja.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/ja.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\ja.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ko.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/ko.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\ko.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="nb-NO.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/nb-NO.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\nb-NO.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="nl-NL.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/nl-NL.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\nl-NL.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="pl.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/pl.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\pl.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="pt-BR.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/pt-BR.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\pt-BR.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="pt.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/pt.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\pt.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ru.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/ru.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\ru.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="sv.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/sv.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\sv.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="tlh.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/tlh.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\tlh.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="tr.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/tr.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\tr.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="zh-TW.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/zh-TW.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\zh-TW.json</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="zh.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/i18n/zh.json">
+								<Candidate type="Path">
+									<Value>www\lib\auth0-lock\i18n\zh.json</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="lib">
+							<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/index.js"/>
+							<ResourceMapSubtree name="assert-required">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/assert-required/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\assert-required\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="bind">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/bind/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\bind\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="bonzo-augmented">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/bonzo-augmented/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\bonzo-augmented\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="css">
+								<NamedResource name="animate.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/animate.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\animate.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="common.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/common.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\common.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="keyframes.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/keyframes.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\keyframes.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="main.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/main.css">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\main.css</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="main.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/main.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\main.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="main.min.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/main.min.css">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\main.min.css</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="normalize.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/normalize.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\normalize.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="reset.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/reset.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\reset.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="zocial.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/zocial.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\css\zocial.less</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="themes">
+									<NamedResource name="default.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/css/themes/default.less">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\lib\css\themes\default.less</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="errors">
+								<NamedResource name="ValidationError.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/errors/ValidationError.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\errors\ValidationError.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="gravatar">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/gravatar/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\gravatar\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="header">
+								<NamedResource name="icon-container.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/header/icon-container.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\header\icon-container.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/header/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\header\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="lock-header.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/header/lock-header.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\header\lock-header.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="html">
+								<NamedResource name="lock-footer.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/html/lock-footer.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\html\lock-footer.ejs</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="lock.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/html/lock.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\html\lock.ejs</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="main.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/html/main.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\html\main.ejs</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="zocial-button.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/html/zocial-button.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\html\zocial-button.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="i18n">
+								<NamedResource name="dictionary.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/i18n/dictionary.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\i18n\dictionary.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="dicts.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/i18n/dicts.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\i18n\dicts.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/i18n/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\i18n\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="insert-css">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/insert-css/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\insert-css\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="md5">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/md5/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\md5\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="mode-kerberos">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-kerberos/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-kerberos\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="loggedin.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-kerberos/loggedin.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-kerberos\loggedin.ejs</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="loggedin_button.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-kerberos/loggedin_button.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-kerberos\loggedin_button.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="mode-loading">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-loading/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-loading\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="loading.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-loading/loading.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-loading\loading.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="mode-loggedin">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-loggedin/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-loggedin\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="loggedin.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-loggedin/loggedin.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-loggedin\loggedin.ejs</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="loggedin_button.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-loggedin/loggedin_button.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-loggedin\loggedin_button.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="mode-reset">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-reset/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-reset\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="reset.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-reset/reset.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-reset\reset.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="mode-signin">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-signin/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-signin\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="login_actions.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-signin/login_actions.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-signin\login_actions.ejs</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="signin.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-signin/signin.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-signin\signin.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="mode-signup">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-signup/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-signup\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="signup.ejs" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/mode-signup/signup.ejs">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\mode-signup\signup.ejs</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="object-create">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/object-create/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\object-create\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="options-manager">
+								<NamedResource name="auth-params.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/options-manager/auth-params.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\options-manager\auth-params.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/options-manager/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\options-manager\index.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="whitelist.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/options-manager/whitelist.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\options-manager\whitelist.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="password-strength">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/password-strength/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\password-strength\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="regex">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/regex/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\regex\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="stop-event">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/stop-event/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\stop-event\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="strategies">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/strategies/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\strategies\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="supports-animation">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/supports-animation/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\supports-animation\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="supports-placeholder">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/supports-placeholder/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\supports-placeholder\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="utils">
+								<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/lib/utils/index.js">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\lib\utils\index.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="support">
+							<ResourceMapSubtree name="development-demo">
+								<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/development-demo/index.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\support\development-demo\index.html</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.less" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/development-demo/index.less">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\support\development-demo\index.less</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/development-demo/login.html">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\support\development-demo\login.html</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="fonts">
+								<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/fonts/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\support\fonts\README.md</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="selection.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/fonts/selection.json">
+									<Candidate type="Path">
+										<Value>www\lib\auth0-lock\support\fonts\selection.json</Value>
+									</Candidate>
+								</NamedResource>
+								<ResourceMapSubtree name="src">
+									<NamedResource name="zocial.eot" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/fonts/src/zocial.eot">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\support\fonts\src\zocial.eot</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="zocial.svg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/fonts/src/zocial.svg">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\support\fonts\src\zocial.svg</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="zocial.ttf" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/fonts/src/zocial.ttf">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\support\fonts\src\zocial.ttf</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="zocial.woff" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0-lock/support/fonts/src/zocial.woff">
+										<Candidate type="Path">
+											<Value>www\lib\auth0-lock\support\fonts\src\zocial.woff</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="auth0.js">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".gitignore" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/.gitignore">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\.gitignore</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".jshintrc" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/.jshintrc">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\.jshintrc</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name=".zuul.yml" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/.zuul.yml">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\.zuul.yml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CHANGELOG.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/CHANGELOG.md">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\CHANGELOG.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Gruntfile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/Gruntfile.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\Gruntfile.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="index.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/index.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\index.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="standalone.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/standalone.js">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\standalone.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="test_harness.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/test_harness.html">
+							<Candidate type="Path">
+								<Value>www\lib\auth0.js\test_harness.html</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="bin">
+							<NamedResource name="deploy" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/bin/deploy">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\bin\deploy</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="version" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/bin/version">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\bin\version</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="build">
+							<NamedResource name="auth0.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/build/auth0.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\build\auth0.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="auth0.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/build/auth0.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\build\auth0.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="example">
+							<NamedResource name="index.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/example/index.html">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\example\index.html</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="lib">
+							<NamedResource name="assert_required.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/assert_required.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\assert_required.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="base64_url.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/base64_url.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\base64_url.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="index-of.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/index-of.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\index-of.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="is-array.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/is-array.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\is-array.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="json-parse.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/json-parse.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\json-parse.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="LoginError.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/LoginError.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\LoginError.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="same-origin.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/same-origin.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\same-origin.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="use_jsonp.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/auth0.js/lib/use_jsonp.js">
+								<Candidate type="Path">
+									<Value>www\lib\auth0.js\lib\use_jsonp.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ion-autocomplete">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ion-autocomplete\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ion-autocomplete\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/LICENSE">
+							<Candidate type="Path">
+								<Value>www\lib\ion-autocomplete\LICENSE</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\ion-autocomplete\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\ion-autocomplete\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="RELEASENOTES.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/RELEASENOTES.md">
+							<Candidate type="Path">
+								<Value>www\lib\ion-autocomplete\RELEASENOTES.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="dist">
+							<NamedResource name="ion-autocomplete.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/dist/ion-autocomplete.css">
+								<Candidate type="Path">
+									<Value>www\lib\ion-autocomplete\dist\ion-autocomplete.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ion-autocomplete.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/dist/ion-autocomplete.js">
+								<Candidate type="Path">
+									<Value>www\lib\ion-autocomplete\dist\ion-autocomplete.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ion-autocomplete.min.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/dist/ion-autocomplete.min.css">
+								<Candidate type="Path">
+									<Value>www\lib\ion-autocomplete\dist\ion-autocomplete.min.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ion-autocomplete.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ion-autocomplete/dist/ion-autocomplete.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ion-autocomplete\dist\ion-autocomplete.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ionic">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ionic\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ionic\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\ionic\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="css">
+							<NamedResource name="ionic.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/css/ionic.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\css\ionic.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.min.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/css/ionic.min.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\css\ionic.min.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/css/ionicons.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\css\ionicons.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.min.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/css/ionicons.min.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\css\ionicons.min.css</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="fonts">
+							<NamedResource name="ionicons.eot" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/fonts/ionicons.eot">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.eot</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.svg" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/fonts/ionicons.svg">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.ttf" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/fonts/ionicons.ttf">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.ttf</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.woff" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/fonts/ionicons.woff">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.woff</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="js">
+							<NamedResource name="ionic-angular.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/js/ionic-angular.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic-angular.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic-angular.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/js/ionic-angular.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic-angular.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.bundle.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/js/ionic.bundle.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.bundle.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.bundle.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/js/ionic.bundle.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.bundle.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/js/ionic.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/js/ionic.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="scss">
+							<NamedResource name="ionic.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/ionic.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\ionic.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_action-sheet.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_action-sheet.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_action-sheet.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_animations.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_animations.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_animations.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_backdrop.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_backdrop.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_backdrop.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_badge.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_badge.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_badge.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_bar.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_bar.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_bar.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_button-bar.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_button-bar.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_button-bar.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_button.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_button.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_button.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_checkbox.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_checkbox.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_checkbox.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_form.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_form.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_form.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_grid.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_grid.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_grid.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_items.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_items.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_items.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_list.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_list.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_list.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_loading.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_loading.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_loading.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_menu.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_menu.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_menu.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_mixins.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_mixins.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_mixins.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_modal.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_modal.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_modal.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_platform.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_platform.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_platform.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_popover.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_popover.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_popover.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_popup.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_popup.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_popup.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_progress.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_progress.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_progress.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_radio.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_radio.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_radio.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_range.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_range.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_range.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_refresher.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_refresher.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_refresher.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_reset.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_reset.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_reset.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_scaffolding.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_scaffolding.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_scaffolding.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_select.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_select.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_select.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_slide-box.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_slide-box.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_slide-box.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_spinner.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_spinner.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_spinner.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_tabs.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_tabs.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_tabs.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_toggle.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_toggle.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_toggle.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_transitions.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_transitions.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_transitions.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_type.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_type.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_type.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_util.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_util.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_util.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_variables.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/_variables.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_variables.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="ionicons">
+								<NamedResource name="ionicons.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/ionicons/ionicons.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\ionicons.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-font.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/ionicons/_ionicons-font.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-font.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-icons.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/ionicons/_ionicons-icons.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-variables.scss" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic/scss/ionicons/_ionicons-variables.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ionic-datepicker">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ionic-datepicker\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ionic-datepicker\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gulpfile.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/gulpfile.js">
+							<Candidate type="Path">
+								<Value>www\lib\ionic-datepicker\gulpfile.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE.MD" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/LICENSE.MD">
+							<Candidate type="Path">
+								<Value>www\lib\ionic-datepicker\LICENSE.MD</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\ionic-datepicker\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\ionic-datepicker\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="dist">
+							<NamedResource name="ionic-datepicker.bundle.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/dist/ionic-datepicker.bundle.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic-datepicker\dist\ionic-datepicker.bundle.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="src">
+							<NamedResource name="ionic-datepicker-modal.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/src/ionic-datepicker-modal.html">
+								<Candidate type="Path">
+									<Value>www\lib\ionic-datepicker\src\ionic-datepicker-modal.html</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic-datepicker-popup.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/src/ionic-datepicker-popup.html">
+								<Candidate type="Path">
+									<Value>www\lib\ionic-datepicker\src\ionic-datepicker-popup.html</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic-datepicker.service.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/src/ionic-datepicker.service.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic-datepicker\src\ionic-datepicker.service.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic-datepicker.styles.css" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ionic-datepicker/src/ionic-datepicker.styles.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic-datepicker\src\ionic-datepicker.styles.css</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ngCordova">
+						<NamedResource name=".bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/.bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ngCordova\.bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bower.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/bower.json">
+							<Candidate type="Path">
+								<Value>www\lib\ngCordova\bower.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CHANGELOG.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/CHANGELOG.md">
+							<Candidate type="Path">
+								<Value>www\lib\ngCordova\CHANGELOG.md</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LICENSE" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/LICENSE">
+							<Candidate type="Path">
+								<Value>www\lib\ngCordova\LICENSE</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="package.json" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/package.json">
+							<Candidate type="Path">
+								<Value>www\lib\ngCordova\package.json</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="README.md" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/README.md">
+							<Candidate type="Path">
+								<Value>www\lib\ngCordova\README.md</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="dist">
+							<NamedResource name="ng-cordova-mocks.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/dist/ng-cordova-mocks.js">
+								<Candidate type="Path">
+									<Value>www\lib\ngCordova\dist\ng-cordova-mocks.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ng-cordova-mocks.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/dist/ng-cordova-mocks.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ngCordova\dist\ng-cordova-mocks.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ng-cordova.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/dist/ng-cordova.js">
+								<Candidate type="Path">
+									<Value>www\lib\ngCordova\dist\ng-cordova.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ng-cordova.min.js" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/lib/ngCordova/dist/ng-cordova.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ngCordova\dist\ng-cordova.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="templates">
+					<NamedResource name="about-list.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/about-list.html">
+						<Candidate type="Path">
+							<Value>www\templates\about-list.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="about-master.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/about-master.html">
+						<Candidate type="Path">
+							<Value>www\templates\about-master.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="add-to-quarky.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/add-to-quarky.html">
+						<Candidate type="Path">
+							<Value>www\templates\add-to-quarky.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="article-modal.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/article-modal.html">
+						<Candidate type="Path">
+							<Value>www\templates\article-modal.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bookmarks.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/bookmarks.html">
+						<Candidate type="Path">
+							<Value>www\templates\bookmarks.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="guru-detail.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/guru-detail.html">
+						<Candidate type="Path">
+							<Value>www\templates\guru-detail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="guru-list.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/guru-list.html">
+						<Candidate type="Path">
+							<Value>www\templates\guru-list.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="guru-nav.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/guru-nav.html">
+						<Candidate type="Path">
+							<Value>www\templates\guru-nav.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home-list.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/home-list.html">
+						<Candidate type="Path">
+							<Value>www\templates\home-list.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="hours-list.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/hours-list.html">
+						<Candidate type="Path">
+							<Value>www\templates\hours-list.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="login.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/login.html">
+						<Candidate type="Path">
+							<Value>www\templates\login.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="menu.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/menu.html">
+						<Candidate type="Path">
+							<Value>www\templates\menu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="place-detail.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/place-detail.html">
+						<Candidate type="Path">
+							<Value>www\templates\place-detail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="place-ohana-detail.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/place-ohana-detail.html">
+						<Candidate type="Path">
+							<Value>www\templates\place-ohana-detail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="places-articles.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/places-articles.html">
+						<Candidate type="Path">
+							<Value>www\templates\places-articles.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="places-gallery.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/places-gallery.html">
+						<Candidate type="Path">
+							<Value>www\templates\places-gallery.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="places-master.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/places-master.html">
+						<Candidate type="Path">
+							<Value>www\templates\places-master.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="profile.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/profile.html">
+						<Candidate type="Path">
+							<Value>www\templates\profile.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="search.html" uri="ms-resource://20591TacticianStudios.Quarky/Files/www/templates/search.html">
+						<Candidate type="Path">
+							<Value>www\templates\search.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
