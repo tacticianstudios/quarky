@@ -1,1 +1,1 @@
-C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\AppPackages\CordovaApp.Windows10_1.1.7.0\CordovaApp.Windows10_1.1.7.0_AnyCPU.appxbundle
+C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\AppPackages\CordovaApp.Windows10_1.1.8.0\CordovaApp.Windows10_1.1.8.0_AnyCPU.appxbundle

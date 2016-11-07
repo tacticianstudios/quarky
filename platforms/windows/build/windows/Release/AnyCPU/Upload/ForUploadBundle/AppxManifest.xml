@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="20591TacticianStudios.Quarky" Publisher="CN=47E2AE76-7B37-4AF8-96FF-79E203871293" Version="1.1.7.0" ProcessorArchitecture="neutral" />
+  <Identity Name="20591TacticianStudios.Quarky" Publisher="CN=47E2AE76-7B37-4AF8-96FF-79E203871293" Version="1.1.8.0" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="48c0a0d0-a39f-11e6-897a-0dade7adbd0b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Quarky</DisplayName>

@@ -16,7 +16,8 @@
                     ],
                     destructiveText: '911',
                     destructiveButtonClicked: function () {
-                        window.open('tel:911', '_system');
+                        //window.open('tel:911', '_system');
+                        window.location.href = "tel://911";
                         return true;
                     },
                     //destructiveText: 'Delete',
@@ -26,13 +27,16 @@
                     buttonClicked: function (index) {
 
                         if (index === 0) {
-                            window.open('tel:1-800-273-8255', '_system'); // National Suicide Hotline
+                            //window.open('tel:1-800-273-8255', '_system'); // National Suicide Hotline
+                            window.location.href = "tel://1-800-273-8255";
                         }
                         if (index === 1) {
-                            window.open('tel:1-800-786-2929', '_system'); // National Runaway Safeline
+                            //window.open('tel:1-800-786-2929', '_system'); // National Runaway Safeline
+                            window.location.href = "tel://1-800-786-2929";
                         }
                         if (index === 2) {
-                            window.open('tel:1-800-999-9999', '_system'); // Crisis Intervention & Counseling Nineline
+                            //window.open('tel:1-800-999-9999', '_system'); // Crisis Intervention & Counseling Nineline
+                            window.location.href = "tel://1-800-999-9999";
                         }
                         if (index === 3) {
                             if (ionic.Platform.isWebView()) { // we're on cordova
@@ -89,7 +93,8 @@
                                  }
                         }
                         if (index === 4) {
-                            window.open('tel:1-888-233-1639', '_system');   // KC Youth Crisis
+                            //window.open('tel:1-888-233-1639', '_system');   // KC Youth Crisis
+                            window.location.href = "tel://1-888-233-1639";
                         }
                         if (index === 5) {
                             window.open('http://report.sprigeo.com', '_system');    // report bullying

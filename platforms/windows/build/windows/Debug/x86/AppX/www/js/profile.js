@@ -266,18 +266,22 @@
             };
             ionic.Platform.ready(function () {
                 $scope.currentPlatform = 'unknown';
-                $scope.currentPlatformVersion = ionic.Platform.version();
+                //$scope.currentPlatformVersion = ionic.Platform.version();
+                $scope.currentPlatformVersion = 'BETA 0.0.302';
                 if (ionic.Platform.isIPad()) {
                     $scope.currentPlatform = 'iPad';
                 }
-                if (ionic.Platform.isIOS()) {
+                else if (ionic.Platform.isIOS()) {
                     $scope.currentPlatform = 'iOS';
                 }
-                if (ionic.Platform.isAndroid()) {
+                else if (ionic.Platform.isAndroid()) {
                     $scope.currentPlatform = 'Android';
                 }
-                if (ionic.Platform.isWindowsPhone()) {
+                else if (ionic.Platform.isWindowsPhone()) {
                     $scope.currentPlatform = 'Windows Phone';
+                }
+                else{
+                    $scope.currentPlatform = 'Windows 10';
                 }
             });
             $scope.logout = function () {

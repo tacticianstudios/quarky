@@ -16,7 +16,8 @@
                     ],
                     destructiveText: '911',
                     destructiveButtonClicked: function () {
-                        window.open('tel:911', '_system');
+                        //window.open('tel:911', '_system');
+                        window.location.href = "tel://911";
                         return true;
                     },
                     //destructiveText: 'Delete',
