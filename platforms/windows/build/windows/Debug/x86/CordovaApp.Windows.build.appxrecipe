@@ -24,38 +24,30 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreen.png">
       <PackagePath>images\SplashScreen.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreenPhone.png">
       <PackagePath>images\SplashScreenPhone.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square150x150Logo.png">
       <PackagePath>images\Square150x150Logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square30x30Logo.png">
       <PackagePath>images\Square30x30Logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square310x310Logo.png">
       <PackagePath>images\Square310x310Logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square44x44Logo.png">
       <PackagePath>images\Square44x44Logo.png</PackagePath>
@@ -65,11 +57,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square70x70Logo.png">
       <PackagePath>images\Square70x70Logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square71x71Logo.png">
       <PackagePath>images\Square71x71Logo.png</PackagePath>
@@ -79,19 +69,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\StoreLogo.png">
       <PackagePath>images\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Wide310x150Logo.png">
       <PackagePath>images\Wide310x150Logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\coming-soon.png">
       <PackagePath>www\img\coming-soon.png</PackagePath>

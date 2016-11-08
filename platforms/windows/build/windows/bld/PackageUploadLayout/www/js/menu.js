@@ -40,7 +40,10 @@
                         }
                         if (index === 3) {
                             if (ionic.Platform.isWebView()) { // we're on cordova
-
+                                //TEMP RELEASE
+                                window.location.href = "tel://741741"; //Open up profile
+                                //Fix send text in later release
+                                /*
                                 //CONFIGURATION
                                 var options = {
                                     replaceLineBreaks: false, // true to replace \n by a new line, false by default
