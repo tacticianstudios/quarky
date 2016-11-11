@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>BCCB74EA9E2768E6DA96BA5D6B2423267875013DC2BF5BDE6900BB92375E0D04</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>69D7171F09E445949E07DBD148283CABD5AADAECD7BBD0DE9F27E05BB5B1E593</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>20591TacticianStudios.Quarky_1.1.102.0_x86__pkg1n0a3t405c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>20591TacticianStudios.Quarky_pkg1n0a3t405c!com.quarkyapp.com.quarkyapp.quarky</RegisteredUserModeAppID>
     <RegisteredPackageID>20591TacticianStudios.Quarky</RegisteredPackageID>
@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-10T19:34:36.155</Modified>
+      <Modified>2016-11-11T20:32:37.437</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -660,7 +660,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\templates.js">
       <PackagePath>www\js\templates.js</PackagePath>
-      <Modified>2016-11-05T21:32:10.329</Modified>
+      <Modified>2016-11-11T20:25:01.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\a0-angular-storage\dist\angular-storage.js">
       <PackagePath>www\lib\a0-angular-storage\dist\angular-storage.js</PackagePath>
@@ -996,7 +996,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\build\auth0-lock.js">
       <PackagePath>www\lib\auth0-lock\build\auth0-lock.js</PackagePath>
-      <Modified>2016-11-10T19:34:30.644</Modified>
+      <Modified>2016-11-11T20:13:54.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\build\auth0-lock.min.js">
       <PackagePath>www\lib\auth0-lock\build\auth0-lock.min.js</PackagePath>
@@ -1624,7 +1624,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\article-modal.html">
       <PackagePath>www\templates\article-modal.html</PackagePath>
-      <Modified>2016-11-05T21:32:15.446</Modified>
+      <Modified>2016-11-11T20:16:07.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\templates\bookmarks.html">
       <PackagePath>www\templates\bookmarks.html</PackagePath>
@@ -2513,7 +2513,7 @@
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-10T19:34:35.831</Modified>
+      <Modified>2016-11-11T20:32:37.098</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

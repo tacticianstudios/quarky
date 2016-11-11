@@ -8329,6 +8329,7 @@ Auth0.prototype.loginPhonegap = function (options, callback) {
   ref.addEventListener('exit', exitHandler);
   
   
+  
 };
 
 /**
