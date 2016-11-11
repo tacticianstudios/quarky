@@ -1,5 +1,9 @@
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\AnyCPU\ReverseMap\resources.pri
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\AnyCPU\AppxManifest.xml
+C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\AnyCPU\CordovaApp.Windows.build.appxrecipe
+C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\ReverseMap\resources.pri
+C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\AppxManifest.xml
+C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\CordovaApp.Windows.build.appxrecipe
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\priconfig.xml
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\priconfig.xml.intermediate
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\layout.resfiles
@@ -12,7 +16,3 @@ C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\qu
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
 C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\bld\ProjectArchitectures.txt
-C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\AnyCPU\CordovaApp.Windows.build.appxrecipe
-C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\ReverseMap\resources.pri
-C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\AppxManifest.xml
-C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\CordovaApp.Windows.build.appxrecipe

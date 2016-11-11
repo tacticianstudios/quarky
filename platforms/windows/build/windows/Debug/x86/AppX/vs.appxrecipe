@@ -16,49 +16,49 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>DC6CFC3CA1EEB4D45987E388C6B6A42AA6184EF54AC9E45C20000FE685CA7813</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>20591TacticianStudios.Quarky_1.1.7.0_x86__pkg1n0a3t405c</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>BCCB74EA9E2768E6DA96BA5D6B2423267875013DC2BF5BDE6900BB92375E0D04</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20591TacticianStudios.Quarky_1.1.102.0_x86__pkg1n0a3t405c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>20591TacticianStudios.Quarky_pkg1n0a3t405c!com.quarkyapp.com.quarkyapp.quarky</RegisteredUserModeAppID>
     <RegisteredPackageID>20591TacticianStudios.Quarky</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=47E2AE76-7B37-4AF8-96FF-79E203871293</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.7.0</RegisteredVersion>
+    <RegisteredVersion>1.1.102.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-06T16:59:47.143</Modified>
+      <Modified>2016-11-10T19:34:36.155</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreen.png">
       <PackagePath>images\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.806</Modified>
+      <Modified>2016-11-08T19:46:38.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.806</Modified>
+      <Modified>2016-11-08T19:46:38.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\SplashScreenPhone.png">
       <PackagePath>images\SplashScreenPhone.png</PackagePath>
-      <Modified>2016-11-05T21:31:59.807</Modified>
+      <Modified>2016-11-08T19:44:40.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square150x150Logo.png">
       <PackagePath>images\Square150x150Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.810</Modified>
+      <Modified>2016-11-08T19:41:14.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.810</Modified>
+      <Modified>2016-11-08T19:41:14.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square30x30Logo.png">
       <PackagePath>images\Square30x30Logo.png</PackagePath>
-      <Modified>2016-11-05T21:31:59.812</Modified>
+      <Modified>2016-11-08T19:43:09.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
@@ -67,26 +67,26 @@
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square310x310Logo.png">
       <PackagePath>images\Square310x310Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.813</Modified>
+      <Modified>2016-11-08T19:40:42.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.813</Modified>
+      <Modified>2016-11-08T19:40:42.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square44x44Logo.png">
       <PackagePath>images\Square44x44Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.815</Modified>
+      <Modified>2016-11-08T19:42:37.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.815</Modified>
+      <Modified>2016-11-08T19:42:37.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square70x70Logo.png">
       <PackagePath>images\Square70x70Logo.png</PackagePath>
-      <Modified>2016-11-05T21:31:59.817</Modified>
+      <Modified>2016-11-08T19:42:05.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
@@ -95,32 +95,32 @@
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square71x71Logo.png">
       <PackagePath>images\Square71x71Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.818</Modified>
+      <Modified>2016-11-08T19:41:41.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.818</Modified>
+      <Modified>2016-11-08T19:41:41.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\StoreLogo.png">
       <PackagePath>images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.821</Modified>
+      <Modified>2016-11-08T19:40:24.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.821</Modified>
+      <Modified>2016-11-08T19:40:24.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Wide310x150Logo.png">
       <PackagePath>images\Wide310x150Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.824</Modified>
+      <Modified>2016-11-08T19:39:40.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-05T21:31:59.824</Modified>
+      <Modified>2016-11-08T19:39:40.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\img\coming-soon.png">
       <PackagePath>www\img\coming-soon.png</PackagePath>
@@ -648,7 +648,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\menu.js">
       <PackagePath>www\js\menu.js</PackagePath>
-      <Modified>2016-11-06T17:05:56.727</Modified>
+      <Modified>2016-11-08T19:48:53.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\js\places-module.js">
       <PackagePath>www\js\places-module.js</PackagePath>
@@ -996,7 +996,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\build\auth0-lock.js">
       <PackagePath>www\lib\auth0-lock\build\auth0-lock.js</PackagePath>
-      <Modified>2016-11-05T21:32:12.514</Modified>
+      <Modified>2016-11-10T19:34:30.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\www\lib\auth0-lock\build\auth0-lock.min.js">
       <PackagePath>www\lib\auth0-lock\build\auth0-lock.min.js</PackagePath>
@@ -2513,7 +2513,7 @@
     <AppxPackagedFile Include="C:\Users\itsgtawwekid\Source\Repos\quarky\platforms\windows\build\windows\Debug\x86\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-06T16:59:46.932</Modified>
+      <Modified>2016-11-10T19:34:35.831</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

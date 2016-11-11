@@ -8317,15 +8317,18 @@ Auth0.prototype.loginPhonegap = function (options, callback) {
 
     callback(new Error('Browser window closed'), null, null, null, null);
 
+    
     ref.removeEventListener('loaderror', errorHandler);
     ref.removeEventListener('loadstart', startHandler);
     ref.removeEventListener('exit', exitHandler);
+    
   }
-
+    
   ref.addEventListener('loaderror', errorHandler);
   ref.addEventListener('loadstart', startHandler);
   ref.addEventListener('exit', exitHandler);
-
+  
+  
 };
 
 /**
